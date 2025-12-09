@@ -55,25 +55,36 @@ h3 {
 
 /* Header */
 header {
-  background-color: var(--teal);
-  color: var(--white);
+  background-color: var(--gray-light);
+  color: var(--black);
   padding: 2rem 0;
   margin-bottom: 2rem;
+  border-bottom: 2px solid var(--lime);
 }
 
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+  position: relative;
+}
+
+.scilifelab-logo {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  height: 40px;
+  width: auto;
+  z-index: 10;
 }
 
 header h1 {
-  color: var(--white);
+  color: var(--teal);
   margin-bottom: 0.5rem;
 }
 
 header p {
-  color: var(--white);
+  color: var(--gray-dark);
   opacity: 0.9;
   font-size: 1.1rem;
 }
@@ -308,6 +319,12 @@ footer p {
   
   .header-content {
     padding: 0 1rem;
+  }
+  
+  .scilifelab-logo {
+    top: 0.5rem;
+    right: 1rem;
+    height: 30px;
   }
   
   nav .nav-content {
