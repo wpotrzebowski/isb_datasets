@@ -1,0 +1,339 @@
+/* SciLifeLab Visual Identity - ISB Dataset Portal */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+/* SciLifeLab Color Palette */
+:root {
+  --lime: #A7C947;
+  --teal: #045C64;
+  --aqua: #4C979F;
+  --grape: #491F53;
+  --white: #FFFFFF;
+  --black: #000000;
+  --gray-light: #F5F5F5;
+  --gray-medium: #CCCCCC;
+  --gray-dark: #666666;
+}
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: var(--teal);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--teal);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--teal);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--aqua);
+}
+
+/* Header */
+header {
+  background-color: var(--teal);
+  color: var(--white);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+header h1 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: var(--white);
+  opacity: 0.9;
+  font-size: 1.1rem;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--gray-light);
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+nav .nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+nav a {
+  color: var(--teal);
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: var(--lime);
+  color: var(--teal);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Dataset Cards (Index Page) */
+.dataset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.dataset-card {
+  background-color: var(--white);
+  border: 2px solid var(--gray-medium);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dataset-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--lime);
+}
+
+.dataset-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.dataset-card h3 a {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.dataset-card h3 a:hover {
+  color: var(--aqua);
+  text-decoration: underline;
+}
+
+.dataset-meta {
+  color: var(--gray-dark);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.dataset-description {
+  margin-bottom: 1rem;
+  color: var(--black);
+}
+
+/* Technique Badges */
+.techniques {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.technique-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--lime);
+  color: var(--teal);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.technique-badge.inactive {
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+}
+
+/* Dataset Detail Page */
+.dataset-detail {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.dataset-detail h2 {
+  color: var(--teal);
+  border-bottom: 3px solid var(--lime);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-section {
+  margin-bottom: 2rem;
+}
+
+.info-section h3 {
+  color: var(--aqua);
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.info-row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.info-label {
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color: var(--teal);
+}
+
+.info-value {
+  color: var(--black);
+}
+
+/* Repository Links */
+.repository-links {
+  margin-top: 1rem;
+}
+
+.repository-links h3 {
+  margin-bottom: 1rem;
+}
+
+.repo-link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.repo-link-list li {
+  margin-bottom: 0.5rem;
+}
+
+.repo-link-list a {
+  color: var(--aqua);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background-color: var(--gray-light);
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.repo-link-list a:hover {
+  background-color: var(--lime);
+  color: var(--teal);
+}
+
+.repo-link-list .repo-type {
+  font-weight: 700;
+  color: var(--teal);
+  margin-right: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: var(--teal);
+  color: var(--white);
+  padding: 2rem 0;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+footer p {
+  color: var(--white);
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dataset-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .info-row {
+    grid-template-columns: 1fr;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .header-content {
+    padding: 0 1rem;
+  }
+  
+  nav .nav-content {
+    padding: 0 1rem;
+  }
+}
+
+/* Links */
+a {
+  color: var(--aqua);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--lime);
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Emphasis */
+strong {
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
