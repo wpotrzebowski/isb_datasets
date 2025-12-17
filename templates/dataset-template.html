@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - ISB Datasets</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="../images/scilifelab-logo.png" alt="SciLifeLab Logo" class="scilifelab-logo">
+            <h1>ISB Datasets</h1>
+            <p>Integrated Structural Biology Multi-Technique Datasets</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-content">
+            <a href="../index.html">← Back to Index</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="dataset-detail">
+            <h2>{{title}}</h2>
+
+            <div class="info-section">
+                <div class="info-row">
+                    <div class="info-label">Unit / Facility</div>
+                    <div class="info-value">{{unit_facility}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">System / Target</div>
+                    <div class="info-value">{{system_target}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Organism / Source</div>
+                    <div class="info-value">{{organism_source}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Approx. Data Collection Years</div>
+                    <div class="info-value">{{data_collection_years}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Access / Reuse Status</div>
+                    <div class="info-value">{{access_status}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Main Public Repository / Storage</div>
+                    <div class="info-value">{{main_repository}}</div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>Techniques Used</h3>
+                <div class="techniques">
+                    {% for technique in techniques %}
+                    <span class="technique-badge">{{technique}}</span>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>Repository Links</h3>
+                <ul class="repo-link-list">
+                    {% for repo in repositories %}
+                    <li>
+                        <span class="repo-type">{{repo.type}}:</span>
+                        {% if repo.links %}
+                            {% for link in repo.links %}
+                            <a href="{{link.url}}" target="_blank">{{link.text}}</a>{% if link.note %} <span style="color: var(--gray-dark);">{{link.note}}</span>{% endif %}{% if not loop.last %}, {% endif %}
+                            {% endfor %}
+                        {% elif repo.note %}
+                        <span style="color: var(--gray-dark);">{{repo.note}}</span>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            {% if content %}
+            <div class="info-section">
+                {{content|safe}}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>ISB Dataset Portal | SciLifeLab</p>
+        </div>
+    </footer>
+</body>
+</html>
+
