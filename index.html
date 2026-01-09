@@ -79,6 +79,7 @@
                     <span class="legend-item legend-1">1</span>
                     <span class="legend-item legend-2">2</span>
                     <span class="legend-item legend-3">3+</span>
+                    <button id="clear-filters-heatmap" class="clear-filters-btn heatmap-clear-btn">Clear Filters</button>
                 </div>
             </div>
         </div>
@@ -351,13 +352,20 @@
             }
         }
 
-        // Clear all filters
-        document.getElementById('clear-filters').addEventListener('click', () => {
+        // Clear all filters function
+        function clearAllFilters() {
             document.querySelectorAll('.filter-btn.active').forEach(btn => {
                 btn.classList.remove('active');
             });
+            document.getElementById('search-input').value = '';
             applyFilters();
-        });
+        }
+
+        // Clear all filters (from main filter section)
+        document.getElementById('clear-filters').addEventListener('click', clearAllFilters);
+
+        // Clear all filters (from heatmap section)
+        document.getElementById('clear-filters-heatmap').addEventListener('click', clearAllFilters);
 
         // Clear search
         document.getElementById('clear-search').addEventListener('click', () => {

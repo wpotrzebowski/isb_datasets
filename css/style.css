@@ -703,6 +703,13 @@ strong {
   gap: 0.5rem;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.heatmap-clear-btn {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
 }
 
 .legend-label {
