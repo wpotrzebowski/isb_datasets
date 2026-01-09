@@ -18,19 +18,27 @@
     <nav>
         <div class="nav-content">
             <a href="index.html">Home</a>
+            
+            <!-- Filter Section (Collapsible) -->
+            <div class="nav-filter-toggle">
+                <button class="nav-filter-btn" id="filter-toggle">
+                    <span class="toggle-icon">▶</span>
+                    <span>Search & Filter</span>
+                </button>
+            </div>
+            
+            <!-- Technique Combination Heatmap -->
+            <div class="nav-heatmap-toggle">
+                <button class="nav-heatmap-btn" id="heatmap-toggle">
+                    <span class="toggle-icon">▶</span>
+                    <span>Technique Matrix</span>
+                </button>
+            </div>
         </div>
-    </nav>
-
-    <div class="container">
-        <p>Browse integrated structural biology datasets combining multiple experimental and computational techniques.</p>
-
-        <!-- Filter Section (Collapsible) -->
-        <div class="filter-toggle-section">
-            <button class="filter-toggle" id="filter-toggle">
-                <span class="toggle-icon">▶</span>
-                <span>Search & Filter Datasets</span>
-            </button>
-            <div class="filter-section" id="filter-section" style="display: none;">
+        
+        <!-- Filter Section Dropdown -->
+        <div class="nav-dropdown" id="filter-section" style="display: none;">
+            <div class="nav-dropdown-content">
                 <!-- Search Section -->
                 <div class="search-section">
                     <label for="search-input" class="search-label">Search by protein name, organism, or description</label>
@@ -54,14 +62,10 @@
                 </div>
             </div>
         </div>
-
-        <!-- Technique Combination Heatmap -->
-        <div class="heatmap-section">
-            <button class="heatmap-toggle" id="heatmap-toggle">
-                <span class="toggle-icon">▶</span>
-                <span>View Technique Combinations Matrix</span>
-            </button>
-            <div class="heatmap-container" id="heatmap-container" style="display: none;">
+        
+        <!-- Heatmap Section Dropdown -->
+        <div class="nav-dropdown" id="heatmap-container" style="display: none;">
+            <div class="nav-dropdown-content">
                 <p class="heatmap-description">
                     This matrix shows how many datasets contain each pair of techniques. 
                     Click a cell to filter datasets by that combination.
@@ -78,6 +82,10 @@
                 </div>
             </div>
         </div>
+    </nav>
+
+    <div class="container">
+        <p>Browse integrated structural biology datasets combining multiple experimental and computational techniques.</p>
 
         <div class="dataset-grid">
             <!-- Dataset 1: GLIC lipid-binding & gating -->
@@ -381,7 +389,7 @@
         // Toggle heatmap visibility
         document.getElementById('heatmap-toggle').addEventListener('click', () => {
             const container = document.getElementById('heatmap-container');
-            const toggleIcon = document.querySelector('.toggle-icon');
+            const toggleIcon = document.querySelector('#heatmap-toggle .toggle-icon');
             
             if (container.style.display === 'none') {
                 container.style.display = 'block';

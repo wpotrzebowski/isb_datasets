@@ -92,14 +92,19 @@ header p {
 /* Navigation */
 nav {
   background-color: var(--gray-light);
-  padding: 1rem 0;
+  padding: 0;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 nav .nav-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -110,11 +115,64 @@ nav a {
   padding: 0.5rem 1rem;
   display: inline-block;
   transition: background-color 0.3s;
+  border-radius: 4px;
 }
 
 nav a:hover {
   background-color: var(--lime);
   color: var(--teal);
+}
+
+/* Navigation Filter/Heatmap Buttons */
+.nav-filter-toggle,
+.nav-heatmap-toggle {
+  display: inline-block;
+}
+
+.nav-filter-btn,
+.nav-heatmap-btn {
+  color: var(--teal);
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 2px solid var(--gray-medium);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+
+.nav-filter-btn:hover,
+.nav-heatmap-btn:hover {
+  background-color: var(--lime);
+  border-color: var(--lime);
+  color: var(--teal);
+}
+
+.nav-filter-btn .toggle-icon,
+.nav-heatmap-btn .toggle-icon {
+  font-size: 0.7rem;
+  transition: transform 0.3s;
+}
+
+/* Navigation Dropdowns */
+.nav-dropdown {
+  background-color: var(--white);
+  border-top: 2px solid var(--gray-medium);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 100;
+}
+
+.nav-dropdown-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
 }
 
 /* Container */
@@ -328,7 +386,19 @@ footer p {
   }
   
   nav .nav-content {
-    padding: 0 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .nav-filter-btn,
+  .nav-heatmap-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .nav-dropdown-content {
+    padding: 1rem;
   }
 }
 
@@ -354,49 +424,7 @@ strong {
   font-family: 'Lato', sans-serif;
 }
 
-/* Filter Toggle Section */
-.filter-toggle-section {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.filter-toggle {
-  width: 100%;
-  padding: 1rem 1.5rem;
-  background-color: var(--gray-light);
-  border: 2px solid var(--gray-medium);
-  border-radius: 8px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--teal);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  transition: all 0.3s;
-  text-align: left;
-}
-
-.filter-toggle:hover {
-  background-color: var(--lime);
-  border-color: var(--lime);
-}
-
-.filter-toggle .toggle-icon {
-  font-size: 0.8rem;
-  transition: transform 0.3s;
-}
-
-/* Filter Section */
-.filter-section {
-  background-color: var(--white);
-  padding: 1.5rem;
-  border: 2px solid var(--gray-medium);
-  border-top: none;
-  border-radius: 0 0 8px 8px;
-  margin-top: -2px;
-}
+/* Filter Section (now in nav dropdown) */
 
 .filter-section h3 {
   margin-bottom: 1rem;
@@ -566,49 +594,8 @@ strong {
 }
 
 /* ========================
-   HEATMAP SECTION
+   HEATMAP SECTION (now in nav dropdown)
    ======================== */
-
-.heatmap-section {
-  margin-bottom: 2rem;
-}
-
-.heatmap-toggle {
-  width: 100%;
-  padding: 1rem 1.5rem;
-  background-color: var(--gray-light);
-  border: 2px solid var(--gray-medium);
-  border-radius: 8px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--teal);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  transition: all 0.3s;
-  text-align: left;
-}
-
-.heatmap-toggle:hover {
-  background-color: var(--lime);
-  border-color: var(--lime);
-}
-
-.toggle-icon {
-  font-size: 0.8rem;
-  transition: transform 0.3s;
-}
-
-.heatmap-container {
-  background-color: var(--white);
-  border: 2px solid var(--gray-medium);
-  border-top: none;
-  border-radius: 0 0 8px 8px;
-  padding: 1.5rem;
-  margin-top: -2px;
-}
 
 .heatmap-description {
   color: var(--gray-dark);
