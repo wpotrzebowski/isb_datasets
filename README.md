@@ -112,6 +112,36 @@ The datasets are sourced from the ISB multi-technique inventory CSV file. Each d
 - Data collection years
 - Access/reuse status
 
+## Monitoring New Datasets
+
+A monitoring system is available to track new multimodal dataset depositions from SciLifeLab's ISB platform.
+
+### Quick Start
+
+Run the monitoring script manually:
+```bash
+python scripts/monitor_datasets.py
+```
+
+### Automated Monitoring
+
+A GitHub Actions workflow (`.github/workflows/monitor.yml`) runs weekly to check for new datasets. Results are saved as artifacts.
+
+### Manual Monitoring
+
+Many repositories require manual checking due to API limitations. See [`scripts/MONITORING.md`](scripts/MONITORING.md) for:
+- Weekly manual check checklist
+- Monthly deep dive procedures
+- Criteria for adding new datasets
+- Step-by-step instructions for each repository
+
+### Adding New Datasets
+
+When a new multimodal dataset is discovered:
+1. Create `datasets/dataset-N.md` following the existing template
+2. Update `index.html` to add the new dataset card
+3. Run `python scripts/build.py` to generate HTML
+
 ## Notes
 
 - The `.nojekyll` file is included to prevent GitHub Pages from processing the site with Jekyll (not needed for static HTML)

@@ -1,0 +1,53 @@
+name: Monitor New Datasets
+
+on:
+  # Schedule disabled - run manually via workflow_dispatch
+  # schedule:
+  #   # Run every Monday at 00:00 UTC (weekly check)
+  #   - cron: '0 0 * * 1'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write  # If you want to create issues for new datasets
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    
+    - name: Run monitoring script
+      run: |
+        python scripts/monitor_datasets.py
+    
+    - name: Upload monitoring results
+      uses: actions/upload-artifact@v3
+      with:
+        name: monitoring-results
+        path: |
+          scripts/new_datasets.json
+          scripts/monitor_state.json
+        retention-days: 30
+    
+    - name: Comment on workflow run (if new datasets found)
+      if: success()
+      run: |
+        if [ -f scripts/new_datasets.json ]; then
+          COUNT=$(python -c "import json; data=json.load(open('scripts/new_datasets.json')); print(len(data.get('results', [])))" 2>/dev/null || echo "0")
+          if [ "$COUNT" -gt "0" ]; then
+            echo "Found $COUNT potential new datasets. Check scripts/new_datasets.json for details."
+          else
+            echo "No new datasets found in this check."
+          fi
+        fi
+

@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Monitoring state files (can be regenerated)
+scripts/monitor_state.json
+scripts/new_datasets.json
+
