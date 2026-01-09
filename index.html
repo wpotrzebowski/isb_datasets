@@ -25,6 +25,21 @@
         <h2>Available Datasets</h2>
         <p>Browse integrated structural biology datasets combining multiple experimental and computational techniques.</p>
 
+        <div class="filter-section">
+            <h3>Filter by Technique</h3>
+            <div class="filter-controls">
+                <div class="filter-buttons" id="technique-filters">
+                    <!-- Filters will be populated by JavaScript -->
+                </div>
+                <div class="filter-actions">
+                    <button id="clear-filters" class="clear-filters-btn">Clear All Filters</button>
+                    <div class="filter-results" id="filter-results">
+                        <span id="result-count">8</span> datasets shown
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="dataset-grid">
             <!-- Dataset 1: GLIC lipid-binding & gating -->
             <div class="dataset-card">
@@ -185,6 +200,87 @@
             <p>ISB Dataset Portal | SciLifeLab</p>
         </div>
     </footer>
+
+    <script>
+        // Extract all unique techniques from dataset cards
+        function extractTechniques() {
+            const cards = document.querySelectorAll('.dataset-card');
+            const techniquesSet = new Set();
+            
+            cards.forEach(card => {
+                const badges = card.querySelectorAll('.technique-badge');
+                badges.forEach(badge => {
+                    techniquesSet.add(badge.textContent.trim());
+                });
+            });
+            
+            return Array.from(techniquesSet).sort();
+        }
+
+        // Create filter buttons
+        function createFilterButtons() {
+            const techniques = extractTechniques();
+            const filterContainer = document.getElementById('technique-filters');
+            
+            techniques.forEach(technique => {
+                const button = document.createElement('button');
+                button.className = 'filter-btn';
+                button.textContent = technique;
+                button.dataset.technique = technique;
+                button.addEventListener('click', toggleFilter);
+                filterContainer.appendChild(button);
+            });
+        }
+
+        // Toggle filter selection
+        function toggleFilter(event) {
+            const button = event.target;
+            button.classList.toggle('active');
+            applyFilters();
+        }
+
+        // Apply filters to dataset cards
+        function applyFilters() {
+            const activeFilters = Array.from(document.querySelectorAll('.filter-btn.active'))
+                .map(btn => btn.dataset.technique);
+            
+            const cards = document.querySelectorAll('.dataset-card');
+            let visibleCount = 0;
+            
+            cards.forEach(card => {
+                const badges = Array.from(card.querySelectorAll('.technique-badge'))
+                    .map(badge => badge.textContent.trim());
+                
+                // Show card if it has ALL selected techniques (AND logic)
+                const shouldShow = activeFilters.length === 0 || 
+                    activeFilters.every(filter => badges.includes(filter));
+                
+                if (shouldShow) {
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            
+            // Update result count
+            document.getElementById('result-count').textContent = visibleCount;
+        }
+
+        // Clear all filters
+        document.getElementById('clear-filters').addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn.active').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            applyFilters();
+        });
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            createFilterButtons();
+            applyFilters();
+        });
+    </script>
 </body>
 </html>
 
