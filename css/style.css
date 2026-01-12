@@ -103,8 +103,21 @@ nav .nav-content {
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 nav a {
@@ -387,6 +400,13 @@ footer p {
   
   nav .nav-content {
     padding: 1rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .nav-left,
+  .nav-right {
+    width: 100%;
     flex-direction: column;
     align-items: stretch;
   }
