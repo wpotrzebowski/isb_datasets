@@ -1,0 +1,63 @@
+{
+  "id": "ISB-D-0007",
+  "portal_index": 7,
+  "title": "Spatial Multimodal Analysis (SMA) - Spatial Transcriptomics",
+  "portal_description": "Spatial transcriptomics data matched with MALDI-MSI for comprehensive tissue section analysis; 19 tissue sections combining gene expression and molecular distribution.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-7.html",
+  "unit_facility": "SciLifeLab Spatial Biology / Mass Spectrometry Imaging",
+  "system_target": "Spatial transcriptomics data matched with MALDI-MSI for comprehensive tissue section analysis combining gene expression and molecular distribution.",
+  "organism_source": "Human post-mortem and mouse tissue samples",
+  "approx_data_collection_years": "~2022–2024",
+  "access": {
+    "status": "public",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "main_public_repository_storage": "SciLifeLab Data Repository (Figshare)",
+  "techniques": [
+    {
+      "code": "spatial_transcriptomics",
+      "label": "Spatial Transcriptomics"
+    },
+    {
+      "code": "maldi_msi",
+      "label": "MALDI-MSI"
+    },
+    {
+      "code": "bioinformatics_integration",
+      "label": "Bioinformatics / Data Integration"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "SciLifeLab Data Repository",
+      "doi": "10.17044/SCILIFELAB.22778920",
+      "url": "https://doi.org/10.17044/SCILIFELAB.22778920",
+      "relation": "primary_dataset"
+    },
+    {
+      "kind": "Researchdata.se catalogue",
+      "url": "https://researchdata.se/en/catalogue/dataset/doi-10-17044-scilifelab-22778920",
+      "relation": "catalogue_record"
+    }
+  ],
+  "publications": [
+    {
+      "type": "preprint",
+      "venue": "bioRxiv",
+      "doi": "10.1101/2023.01.26.525195",
+      "url": "https://doi.org/10.1101/2023.01.26.525195",
+      "relation": "associated_manuscript",
+      "note": "Referenced from the Researchdata.se record."
+    }
+  ],
+  "keywords": [
+    "spatial transcriptomics",
+    "Visium",
+    "MALDI-MSI",
+    "multimodal",
+    "tissue sections",
+    "Spatial Multimodal Analysis"
+  ]
+}
+

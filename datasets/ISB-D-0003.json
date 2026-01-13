@@ -1,0 +1,85 @@
+{
+  "id": "ISB-D-0003",
+  "portal_index": 3,
+  "title": "MUC2 CysD2 domain",
+  "portal_description": "Second CysD domain (CysD2) from intestinal mucin MUC2; NMR solution structure, SAXS and MS/MST to understand mucin network organisation and cross-linking.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-3.html",
+  "unit_facility": "Swedish NMR Centre (Gothenburg) + MPE core",
+  "system_target": "Second CysD domain (CysD2) from intestinal mucin MUC2; NMR solution structure, SAXS and MS/MST to understand mucin network organisation and cross-linking.",
+  "organism_source": "Human MUC2 domain",
+  "approx_data_collection_years": "~2021–2024",
+  "access": {
+    "status": "public",
+    "license": null,
+    "license_url": null
+  },
+  "main_public_repository_storage": "PDB + SASBDB + journal SI (+ proteomics repository)",
+  "techniques": [
+    {
+      "code": "saxs",
+      "label": "SAXS"
+    },
+    {
+      "code": "nmr",
+      "label": "NMR"
+    },
+    {
+      "code": "ms_proteomics",
+      "label": "MS / Proteomics"
+    },
+    {
+      "code": "biophysics",
+      "label": "Biophysics (ITC/SPR/MST/DSF etc.)"
+    },
+    {
+      "code": "integrative_modelling",
+      "label": "Integrative / computational modelling (non-MD)"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "PDB",
+      "accession": "8S03",
+      "url": "https://www.rcsb.org/structure/8S03",
+      "relation": "primary_structure"
+    },
+    {
+      "kind": "BMRB",
+      "accession": "34899",
+      "url": "https://bmrb.io/34899",
+      "relation": "primary_nmr_data",
+      "derived_from": "PDB:8S03"
+    },
+    {
+      "kind": "SASBDB",
+      "accession": "SASDSG5",
+      "url": "https://www.sasbdb.org/data/SASDSG5/",
+      "relation": "saxs_sans_profile"
+    },
+    {
+      "kind": "MS repository",
+      "accession": null,
+      "url": null,
+      "relation": "proteomics_dataset",
+      "note": "Portal indicates an MS dataset (likely PRIDE/ProteomeXchange) exists but ID was not yet added."
+    }
+  ],
+  "publications": [
+    {
+      "type": "journal_article",
+      "venue": "Cell Reports (2024)",
+      "doi": "10.1016/j.celrep.2024.114207",
+      "url": "https://doi.org/10.1016/j.celrep.2024.114207",
+      "relation": "primary_publication",
+      "citation": "Cell Reports 43:114207 (2024)"
+    }
+  ],
+  "keywords": [
+    "MUC2",
+    "mucin",
+    "CysD domain",
+    "NMR",
+    "cross-linking"
+  ]
+}
+

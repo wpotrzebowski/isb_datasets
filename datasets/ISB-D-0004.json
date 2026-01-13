@@ -1,0 +1,96 @@
+{
+  "id": "ISB-D-0004",
+  "portal_index": 4,
+  "title": "MecA/ClpC/ClpP AAA⁺ protease",
+  "portal_description": "Central AAA⁺ protease MecA/ClpC/ClpP from S. aureus; near-atomic cryo-EM structure, integrated with AF modelling and functional assays.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-4.html",
+  "unit_facility": "Cryo-EM Swedish Nat. Facility (Stockholm)",
+  "system_target": "Central AAA⁺ protease MecA/ClpC/ClpP from S. aureus; near-atomic cryo-EM structure, integrated with AF modelling and functional assays.",
+  "organism_source": "Staphylococcus aureus",
+  "approx_data_collection_years": "~2022–2025",
+  "access": {
+    "status": "public",
+    "license": null,
+    "license_url": null
+  },
+  "main_public_repository_storage": "PDB + EMDB + EMPIAR + SciLifeLab Data Repository",
+  "techniques": [
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    },
+    {
+      "code": "biophysics",
+      "label": "Biophysics (ITC/SPR/MST/DSF etc.)"
+    },
+    {
+      "code": "integrative_modelling",
+      "label": "Integrative / computational modelling (non-MD)"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "PDB",
+      "accession": "9RAI",
+      "url": "https://www.rcsb.org/structure/9RAI",
+      "relation": "primary_structure"
+    },
+    {
+      "kind": "PDB",
+      "accession": "9R2S",
+      "url": "https://www.rcsb.org/structure/9R2S",
+      "relation": "related_structure",
+      "derived_from": "PDB:9RAI"
+    },
+    {
+      "kind": "EMDB",
+      "accession": "EMD-51498",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-51498",
+      "relation": "primary_map"
+    },
+    {
+      "kind": "EMDB",
+      "accession": "EMD-51367",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-51367",
+      "relation": "primary_map"
+    },
+    {
+      "kind": "EMDB",
+      "accession": "EMD-53879",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-53879",
+      "relation": "primary_map",
+      "derived_from": "PDB:9RAI"
+    },
+    {
+      "kind": "EMPIAR",
+      "accession": "EMPIAR-12887",
+      "url": "https://www.ebi.ac.uk/empiar/EMPIAR-12887",
+      "relation": "raw_data"
+    },
+    {
+      "kind": "SciLifeLab Data Repository",
+      "doi": null,
+      "url": null,
+      "relation": "supplementary_dataset",
+      "note": "Portal references a SciLifeLab Data Repository dataset titled 'Structure of the central Staphylococcus aureus AAA+ protease MecA/ClpC/ClpP' (DOI not listed on portal)."
+    }
+  ],
+  "publications": [
+    {
+      "type": "journal_article",
+      "venue": "Communications Biology (2025)",
+      "doi": "10.1038/s42003-025-08908-w",
+      "url": "https://doi.org/10.1038/s42003-025-08908-w",
+      "relation": "primary_publication"
+    }
+  ],
+  "keywords": [
+    "MecA",
+    "ClpC",
+    "ClpP",
+    "AAA+ protease",
+    "Staphylococcus aureus",
+    "cryo-EM"
+  ]
+}
+

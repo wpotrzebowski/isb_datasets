@@ -1,5 +1,6 @@
 ---
 title: "MUC2 CysD2 domain"
+json_file: "ISB-D-0003.json"
 unit_facility: "Swedish NMR Centre (Gothenburg) + MPE core"
 system_target: "Second CysD domain (CysD2) from intestinal mucin MUC2; NMR solution structure, SAXS and MS/MST to understand mucin network organisation and cross-linking."
 organism_source: "Human MUC2 domain"

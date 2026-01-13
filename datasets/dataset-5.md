@@ -1,5 +1,6 @@
 ---
 title: "FusB-mediated rescue of EF-G from fusidic acid"
+json_file: "ISB-D-0005.json"
 unit_facility: "Ribosome/antibiotic-resistance structural biology (Uppsala-linked)"
 system_target: "Ribosome-bound EF-G stalled by fusidic acid and rescued by FusB; time-resolved cryo-EM \"movie\" combined with kinetics and MS quantification."
 organism_source: "Bacterial 70S ribosome, EF-G, FusB"

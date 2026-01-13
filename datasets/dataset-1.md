@@ -1,5 +1,6 @@
 ---
 title: "GLIC lipid-binding & gating"
+json_file: "ISB-D-0001.json"
 unit_facility: "Cryo-EM Swedish Nat. Facility (Stockholm) / ISB"
 system_target: "Pentameric ligand-gated ion channel GLIC; cryo-EM structures in nanodiscs, lipid binding analysis, integrated with MD and earlier X-ray/SANS."
 organism_source: "Gloeobacter violaceus"

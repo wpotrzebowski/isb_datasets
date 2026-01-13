@@ -1,5 +1,6 @@
 ---
 title: "Sodium caprate scattering + CG-MD"
+json_file: "ISB-D-0006.json"
 unit_facility: "Uppsala (scattering + simulations)"
 system_target: "Sodium caprate (C10) aggregation; small-angle scattering data and final CG-MD snapshots for multiple conditions, packaged as one dataset."
 organism_source: "Small molecule surfactant (C10)"

@@ -1,0 +1,173 @@
+{
+  "schema": {
+    "name": "ISB-AP",
+    "version": "1.0",
+    "type": "dataset_metadata_collection",
+    "generated_at": "2026-01-13T11:23:31.167955+00:00"
+  },
+  "source": {
+    "portal_name": "ISB Dataset Portal (GitHub Pages)",
+    "portal_url": "https://wpotrzebowski.github.io/isb_datasets/index.html",
+    "retrieved_at": "2026-01-13T11:23:31.167955+00:00",
+    "notes": "Generated from portal dataset pages and enriched with linked repository identifiers where publicly resolvable."
+  },
+  "controlled_vocabularies": {
+    "techniques": [
+      {
+        "code": "cryo_em",
+        "label": "Cryo-EM"
+      },
+      {
+        "code": "xray_crystallography",
+        "label": "X-ray crystallography"
+      },
+      {
+        "code": "saxs",
+        "label": "SAXS"
+      },
+      {
+        "code": "sans",
+        "label": "SANS"
+      },
+      {
+        "code": "nmr",
+        "label": "NMR"
+      },
+      {
+        "code": "ms_proteomics",
+        "label": "MS / Proteomics"
+      },
+      {
+        "code": "xl_ms",
+        "label": "Cross-linking MS (XL-MS)"
+      },
+      {
+        "code": "maldi_msi",
+        "label": "MALDI-MSI"
+      },
+      {
+        "code": "spatial_transcriptomics",
+        "label": "Spatial Transcriptomics"
+      },
+      {
+        "code": "biophysics",
+        "label": "Biophysics (ITC/SPR/MST/DSF etc.)"
+      },
+      {
+        "code": "md_simulation",
+        "label": "MD / other simulations"
+      },
+      {
+        "code": "integrative_modelling",
+        "label": "Integrative / computational modelling (non-MD)"
+      },
+      {
+        "code": "bioinformatics_integration",
+        "label": "Bioinformatics / Data Integration"
+      }
+    ]
+  },
+  "datasets": [
+    {
+      "id": "ISB-D-0001",
+      "portal_index": 1,
+      "file": "ISB-D-0001.json"
+    },
+    {
+      "id": "ISB-D-0002",
+      "portal_index": 2,
+      "file": "ISB-D-0002.json"
+    },
+    {
+      "id": "ISB-D-0003",
+      "portal_index": 3,
+      "file": "ISB-D-0003.json"
+    },
+    {
+      "id": "ISB-D-0004",
+      "portal_index": 4,
+      "file": "ISB-D-0004.json"
+    },
+    {
+      "id": "ISB-D-0005",
+      "portal_index": 5,
+      "file": "ISB-D-0005.json"
+    },
+    {
+      "id": "ISB-D-0006",
+      "portal_index": 6,
+      "file": "ISB-D-0006.json"
+    },
+    {
+      "id": "ISB-D-0007",
+      "portal_index": 7,
+      "file": "ISB-D-0007.json"
+    },
+    {
+      "id": "ISB-D-0008",
+      "portal_index": 8,
+      "file": "ISB-D-0008.json"
+    }
+  ],
+  "mapping": {
+    "source_portal_fields": [
+      {
+        "portal_field": "Dataset title (index card + dataset page header)",
+        "isb_ap_path": "datasets[].title",
+        "notes": "Use the dataset page H2 (##) title for canonical title."
+      },
+      {
+        "portal_field": "Index card description",
+        "isb_ap_path": "datasets[].portal_description",
+        "notes": "Short narrative shown on index."
+      },
+      {
+        "portal_field": "Unit / Facility",
+        "isb_ap_path": "datasets[].unit_facility"
+      },
+      {
+        "portal_field": "System / Target",
+        "isb_ap_path": "datasets[].system_target"
+      },
+      {
+        "portal_field": "Organism / Source",
+        "isb_ap_path": "datasets[].organism_source"
+      },
+      {
+        "portal_field": "Approx. Data Collection Years",
+        "isb_ap_path": "datasets[].approx_data_collection_years"
+      },
+      {
+        "portal_field": "Access / Reuse Status",
+        "isb_ap_path": "datasets[].access.status",
+        "transform": "normalize('Public'->'public', 'Embargoed'->'embargoed', 'Restricted'->'restricted')"
+      },
+      {
+        "portal_field": "Main Public Repository / Storage",
+        "isb_ap_path": "datasets[].main_public_repository_storage"
+      },
+      {
+        "portal_field": "Techniques Used",
+        "isb_ap_path": "datasets[].techniques[]",
+        "transform": "map free-text technique tokens to controlled vocab codes (see controlled_vocabularies.techniques)"
+      },
+      {
+        "portal_field": "Repository Links",
+        "isb_ap_path": "datasets[].repository_records[]",
+        "transform": "split by repository, extract accessions/DOIs/URLs where present; otherwise create placeholder with note"
+      }
+    ],
+    "enrichment_rules": [
+      {
+        "rule": "If a PDB accession is present, optionally enrich with linked EMDB/BMRB and publication DOI from the PDB record (keep derived_from='PDB:<id>')."
+      },
+      {
+        "rule": "If a SciLifeLab DOI is present but DOI resolver blocks crawling, use Researchdata.se catalogue record to fetch license and related manuscript DOIs where available."
+      },
+      {
+        "rule": "If portal says 'ID to be added', create placeholder record with note to facilitate later curation."
+      }
+    ]
+  }
+}
+

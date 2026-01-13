@@ -1,0 +1,85 @@
+{
+  "id": "ISB-D-0002",
+  "portal_index": 2,
+  "title": "DeCLIC Ca²⁺-stabilised N-terminal domain",
+  "portal_description": "Pentameric ion channel DeCLIC with accessory N-terminal domain; cryo-EM structures in nanodiscs, Ca²⁺ binding in NTD and ECD, interpreted with previous SAS and MD.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-2.html",
+  "unit_facility": "Cryo-EM Swedish Nat. Facility (Stockholm) / ISB",
+  "system_target": "Pentameric ion channel DeCLIC with accessory N-terminal domain; cryo-EM structures in nanodiscs, Ca²⁺ binding in NTD and ECD, interpreted with previous SAS and MD.",
+  "organism_source": "Bacterial pLGIC (DeCLIC)",
+  "approx_data_collection_years": "~2022–2025",
+  "access": {
+    "status": "public",
+    "license": null,
+    "license_url": null
+  },
+  "main_public_repository_storage": "PDB + EMDB; journal SI; earlier SAXS in SASBDB or equivalent",
+  "techniques": [
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    },
+    {
+      "code": "saxs",
+      "label": "SAXS"
+    },
+    {
+      "code": "biophysics",
+      "label": "Biophysics (ITC/SPR/MST/DSF etc.)"
+    },
+    {
+      "code": "md_simulation",
+      "label": "MD / other simulations"
+    },
+    {
+      "code": "integrative_modelling",
+      "label": "Integrative / computational modelling (non-MD)"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "PDB",
+      "accession": "9EVA",
+      "url": "https://www.rcsb.org/structure/9EVA",
+      "relation": "primary_structure",
+      "note": "Identified via the 2025 J Struct Biol X paper; portal page says 'IDs from paper'."
+    },
+    {
+      "kind": "PDB",
+      "accession": "9EV8",
+      "url": "https://www.rcsb.org/structure/9EV8",
+      "relation": "primary_structure",
+      "note": "Identified via the 2025 J Struct Biol X paper; portal page says 'IDs from paper'."
+    },
+    {
+      "kind": "EMDB",
+      "accession": "EMD-19996",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-19996",
+      "relation": "primary_map",
+      "derived_from": "PDB:9EVA"
+    },
+    {
+      "kind": "EMDB",
+      "accession": "EMD-19994",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-19994",
+      "relation": "primary_map",
+      "derived_from": "PDB:9EV8"
+    }
+  ],
+  "publications": [
+    {
+      "type": "journal_article",
+      "venue": "J Struct Biol X (2025)",
+      "doi": "10.1016/j.yjsbx.2025.100139",
+      "url": "https://doi.org/10.1016/j.yjsbx.2025.100139",
+      "relation": "primary_publication"
+    }
+  ],
+  "keywords": [
+    "DeCLIC",
+    "pentameric ligand-gated ion channel",
+    "calcium binding",
+    "nanodiscs"
+  ]
+}
+

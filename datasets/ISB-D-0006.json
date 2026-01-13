@@ -1,0 +1,55 @@
+{
+  "id": "ISB-D-0006",
+  "portal_index": 6,
+  "title": "Sodium caprate scattering + CG-MD",
+  "portal_description": "Sodium caprate (C10) aggregation; small-angle scattering data and final CG-MD snapshots for multiple conditions, packaged as one dataset.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-6.html",
+  "unit_facility": "Uppsala (scattering + simulations)",
+  "system_target": "Sodium caprate (C10) aggregation; small-angle scattering data and final CG-MD snapshots for multiple conditions, packaged as one dataset.",
+  "organism_source": "Small molecule surfactant (C10)",
+  "approx_data_collection_years": "~2023–2025",
+  "access": {
+    "status": "public",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "main_public_repository_storage": "SciLifeLab Data Repository (dataset \"Scattering data and the final simulation snapshots\")",
+  "techniques": [
+    {
+      "code": "saxs",
+      "label": "SAXS"
+    },
+    {
+      "code": "sans",
+      "label": "SANS"
+    },
+    {
+      "code": "md_simulation",
+      "label": "MD / other simulations"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "SciLifeLab Data Repository",
+      "doi": "10.17044/SCILIFELAB.29328587",
+      "url": "https://doi.org/10.17044/SCILIFELAB.29328587",
+      "relation": "primary_dataset"
+    },
+    {
+      "kind": "Researchdata.se catalogue",
+      "url": "https://researchdata.se/en/catalogue/dataset/doi-10-17044-scilifelab-29328587",
+      "relation": "catalogue_record"
+    }
+  ],
+  "publications": [],
+  "keywords": [
+    "sodium caprate",
+    "C10",
+    "coarse-grained MD",
+    "Martini",
+    "small-angle scattering",
+    "SAXS",
+    "SANS"
+  ]
+}
+

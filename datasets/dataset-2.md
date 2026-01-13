@@ -1,5 +1,6 @@
 ---
 title: "DeCLIC Ca²⁺-stabilised N-terminal domain"
+json_file: "ISB-D-0002.json"
 unit_facility: "Cryo-EM Swedish Nat. Facility (Stockholm) / ISB"
 system_target: "Pentameric ion channel DeCLIC with accessory N-terminal domain; cryo-EM structures in nanodiscs, Ca²⁺ binding in NTD and ECD, interpreted with previous SAS and MD."
 organism_source: "Bacterial pLGIC (DeCLIC)"

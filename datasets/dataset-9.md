@@ -1,5 +1,6 @@
 ---
 title: "Yeast Nuclear Pore Complex - CX-MS"
+json_file: "ISB-D-0008.json"
 unit_facility: "Structural Proteomics / Integrative Structural Biology"
 system_target: "Comprehensive structure and functional adaptations of the yeast nuclear pore complex using cross-linking mass spectrometry and integrative modeling."
 organism_source: "Saccharomyces cerevisiae"

@@ -1,5 +1,6 @@
 ---
 title: "Spatial Multimodal Analysis (SMA) - Spatial Transcriptomics"
+json_file: "ISB-D-0007.json"
 unit_facility: "SciLifeLab Spatial Biology / Mass Spectrometry Imaging"
 system_target: "Spatial transcriptomics data matched with MALDI-MSI for comprehensive tissue section analysis combining gene expression and molecular distribution."
 organism_source: "Human post-mortem and mouse tissue samples"

@@ -39,8 +39,8 @@ def build_datasets():
     env = Environment(loader=FileSystemLoader(str(templates_dir)))
     template = env.get_template('dataset-template.html')
     
-    # Process all markdown files
-    md_files = list(datasets_dir.glob('*.md'))
+    # Process all markdown files (excluding README.md)
+    md_files = [f for f in datasets_dir.glob('*.md') if f.name != 'README.md']
     if not md_files:
         print("No markdown files found in datasets/ directory")
         return

@@ -1,0 +1,96 @@
+{
+  "id": "ISB-D-0005",
+  "portal_index": 5,
+  "title": "FusB-mediated rescue of EF-G from fusidic acid",
+  "portal_description": "Ribosome-bound EF-G stalled by fusidic acid and rescued by FusB; time-resolved cryo-EM \"movie\" combined with kinetics and MS quantification.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-5.html",
+  "unit_facility": "Ribosome/antibiotic-resistance structural biology (Uppsala-linked)",
+  "system_target": "Ribosome-bound EF-G stalled by fusidic acid and rescued by FusB; time-resolved cryo-EM \"movie\" combined with kinetics and MS quantification.",
+  "organism_source": "Bacterial 70S ribosome, EF-G, FusB",
+  "approx_data_collection_years": "~2022–2024",
+  "access": {
+    "status": "public",
+    "license": null,
+    "license_url": null
+  },
+  "main_public_repository_storage": "PDB + EMDB + EMPIAR + proteomics repository",
+  "techniques": [
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    },
+    {
+      "code": "ms_proteomics",
+      "label": "MS / Proteomics"
+    },
+    {
+      "code": "biophysics",
+      "label": "Biophysics (ITC/SPR/MST/DSF etc.)"
+    },
+    {
+      "code": "integrative_modelling",
+      "label": "Integrative / computational modelling (non-MD)"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "PDB",
+      "accession": "9GHA",
+      "url": "https://www.rcsb.org/structure/9GHA",
+      "relation": "primary_structure"
+    },
+    {
+      "kind": "PDB",
+      "accession": "9GHH",
+      "url": "https://www.rcsb.org/structure/9GHH",
+      "relation": "primary_structure"
+    },
+    {
+      "kind": "EMDB",
+      "accession": "EMD-51350",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-51350",
+      "relation": "primary_map",
+      "derived_from": "PDB:9GHA"
+    },
+    {
+      "kind": "EMDB",
+      "accession": "EMD-51357",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-51357",
+      "relation": "primary_map",
+      "derived_from": "PDB:9GHH"
+    },
+    {
+      "kind": "EMPIAR",
+      "accession": "EMPIAR-12731",
+      "url": "https://www.ebi.ac.uk/empiar/EMPIAR-12731",
+      "relation": "raw_data",
+      "note": "Portal describes this as the raw cryo-EM movie."
+    },
+    {
+      "kind": "MS repository",
+      "accession": null,
+      "url": null,
+      "relation": "proteomics_dataset",
+      "note": "Portal indicates an MS dataset exists but ID was not yet added (PRIDE/ProteomeXchange or similar)."
+    }
+  ],
+  "publications": [
+    {
+      "type": "journal_article",
+      "venue": "Nature Communications (2025)",
+      "doi": "10.1038/s41467-025-58902-3",
+      "url": "https://doi.org/10.1038/s41467-025-58902-3",
+      "relation": "primary_publication",
+      "title": "Structural mechanism of FusB-mediated rescue from fusidic acid inhibition of protein synthesis"
+    }
+  ],
+  "keywords": [
+    "FusB",
+    "EF-G",
+    "fusidic acid",
+    "ribosome",
+    "antibiotic resistance",
+    "time-resolved cryo-EM"
+  ]
+}
+

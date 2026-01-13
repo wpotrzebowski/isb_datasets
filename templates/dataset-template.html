@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}} - ISB Datasets</title>
     <link rel="stylesheet" href="../css/style.css">
+    {% if json_file %}
+    <link rel="alternate" type="application/json" href="{{json_file}}" title="Dataset metadata (JSON)">
+    {% endif %}
 </head>
 <body>
     <header>
@@ -82,6 +85,20 @@
             {% if content %}
             <div class="info-section">
                 {{content|safe}}
+            </div>
+            {% endif %}
+
+            {% if json_file %}
+            <div class="info-section">
+                <h3>Machine-Readable Metadata</h3>
+                <p>
+                    <a href="{{json_file}}" type="application/json" download style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: var(--primary-color, #0066cc);">
+                        <span style="font-size: 1.1em;">⬇</span>
+                        Download dataset metadata (JSON)
+                    </a>
+                    <span style="color: var(--gray-dark, #666); font-size: 0.9em; margin-left: 8px;">|</span>
+                    <a href="{{json_file}}" type="application/json" style="color: var(--gray-dark, #666); text-decoration: none; font-size: 0.9em;">View raw JSON</a>
+                </p>
             </div>
             {% endif %}
         </div>

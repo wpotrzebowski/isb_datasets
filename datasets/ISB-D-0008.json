@@ -1,0 +1,70 @@
+{
+  "id": "ISB-D-0008",
+  "portal_index": 8,
+  "title": "Yeast Nuclear Pore Complex - CX-MS",
+  "portal_description": "Comprehensive structure and functional adaptations of the yeast nuclear pore complex using cross-linking mass spectrometry and integrative modeling.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-9.html",
+  "unit_facility": "Structural Proteomics / Integrative Structural Biology",
+  "system_target": "Comprehensive structure and functional adaptations of the yeast nuclear pore complex using cross-linking mass spectrometry and integrative modeling.",
+  "organism_source": "Saccharomyces cerevisiae",
+  "approx_data_collection_years": "~2020–2021",
+  "access": {
+    "status": "public",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "main_public_repository_storage": "Zenodo + PDB",
+  "techniques": [
+    {
+      "code": "xl_ms",
+      "label": "Cross-linking MS (XL-MS)"
+    },
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    },
+    {
+      "code": "integrative_modelling",
+      "label": "Integrative / computational modelling (non-MD)"
+    },
+    {
+      "code": "ms_proteomics",
+      "label": "MS / Proteomics"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "Zenodo",
+      "accession": "5721514",
+      "doi": "10.5281/zenodo.5721514",
+      "url": "https://doi.org/10.5281/zenodo.5721514",
+      "relation": "primary_dataset",
+      "note": "Portal links to Zenodo record 5721514 (CX-MS datasets)."
+    },
+    {
+      "kind": "PDB",
+      "accession": null,
+      "url": null,
+      "relation": "structure_models",
+      "note": "Portal lists PDB as a main repository but does not yet specify accession IDs."
+    }
+  ],
+  "publications": [
+    {
+      "type": "journal_article_or_preprint",
+      "title": "Comprehensive Structure and Functional Adaptations of the Yeast Nuclear Pore Complex",
+      "doi": null,
+      "url": null,
+      "relation": "primary_publication",
+      "note": "Portal lists the publication title but not DOI."
+    }
+  ],
+  "keywords": [
+    "nuclear pore complex",
+    "yeast",
+    "Saccharomyces cerevisiae",
+    "cross-linking MS",
+    "integrative modelling"
+  ]
+}
+

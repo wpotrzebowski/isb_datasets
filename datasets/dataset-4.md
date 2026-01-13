@@ -1,5 +1,6 @@
 ---
 title: "MecA/ClpC/ClpP AAA⁺ protease"
+json_file: "ISB-D-0004.json"
 unit_facility: "Cryo-EM Swedish Nat. Facility (Stockholm)"
 system_target: "Central AAA⁺ protease MecA/ClpC/ClpP from S. aureus; near-atomic cryo-EM structure, integrated with AF modelling and functional assays."
 organism_source: "Staphylococcus aureus"

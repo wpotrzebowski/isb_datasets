@@ -1,0 +1,119 @@
+{
+  "id": "ISB-D-0001",
+  "portal_index": 1,
+  "title": "GLIC lipid-binding & gating",
+  "portal_description": "Pentameric ligand-gated ion channel GLIC; cryo-EM structures in nanodiscs, lipid binding analysis, integrated with MD and earlier X-ray/SANS.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-1.html",
+  "unit_facility": "Cryo-EM Swedish Nat. Facility (Stockholm) / ISB",
+  "system_target": "Pentameric ligand-gated ion channel GLIC; cryo-EM structures in nanodiscs, lipid binding analysis, integrated with MD and earlier X-ray/SANS.",
+  "organism_source": "Gloeobacter violaceus",
+  "approx_data_collection_years": "~2019–2023",
+  "access": {
+    "status": "public",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "main_public_repository_storage": "PDB + EMDB + SASBDB + SciLifeLab Data Repository",
+  "techniques": [
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    },
+    {
+      "code": "xray_crystallography",
+      "label": "X-ray crystallography"
+    },
+    {
+      "code": "sans",
+      "label": "SANS"
+    },
+    {
+      "code": "biophysics",
+      "label": "Biophysics (ITC/SPR/MST/DSF etc.)"
+    },
+    {
+      "code": "md_simulation",
+      "label": "MD / other simulations"
+    },
+    {
+      "code": "integrative_modelling",
+      "label": "Integrative / computational modelling (non-MD)"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "PDB",
+      "accession": "8ATG",
+      "url": "https://www.rcsb.org/structure/8ATG",
+      "relation": "primary_structure"
+    },
+    {
+      "kind": "PDB",
+      "accession": "4NPQ",
+      "url": "https://www.rcsb.org/structure/4NPQ",
+      "relation": "related_structure",
+      "note": "Mentioned on portal page as an older X-ray structure example."
+    },
+    {
+      "kind": "EMDB",
+      "accession": "EMD-15649",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-15649",
+      "relation": "primary_map",
+      "derived_from": "PDB:8ATG"
+    },
+    {
+      "kind": "SASBDB",
+      "accession": "SASDL43",
+      "url": "https://www.sasbdb.org/data/SASDL43/",
+      "relation": "saxs_sans_profile"
+    },
+    {
+      "kind": "SASBDB",
+      "accession": "SASDL53",
+      "url": "https://www.sasbdb.org/data/SASDL53/",
+      "relation": "saxs_sans_profile"
+    },
+    {
+      "kind": "SASBDB",
+      "accession": "SASDL63",
+      "url": "https://www.sasbdb.org/data/SASDL63/",
+      "relation": "saxs_sans_profile"
+    },
+    {
+      "kind": "SciLifeLab Data Repository",
+      "doi": "10.17044/SCILIFELAB.21908892",
+      "url": "https://doi.org/10.17044/SCILIFELAB.21908892",
+      "relation": "supplementary_dataset"
+    },
+    {
+      "kind": "Researchdata.se catalogue",
+      "url": "https://researchdata.se/en/catalogue/dataset/doi-10-17044-scilifelab-21908892",
+      "relation": "catalogue_record"
+    }
+  ],
+  "publications": [
+    {
+      "type": "journal_article",
+      "title": "Discovery of lipid binding sites in a ligand-gated ion channel by integrating simulations and cryo-EM",
+      "venue": "eLife (2024)",
+      "doi": "10.7554/eLife.86016",
+      "url": "https://doi.org/10.7554/eLife.86016",
+      "relation": "primary_publication"
+    },
+    {
+      "type": "preprint",
+      "venue": "bioRxiv",
+      "doi": "10.1101/2023.01.06.523006v1",
+      "url": "https://doi.org/10.1101/2023.01.06.523006v1",
+      "relation": "preprint"
+    }
+  ],
+  "keywords": [
+    "GLIC",
+    "pentameric ligand-gated ion channel",
+    "lipid binding",
+    "nanodiscs",
+    "integrative structural biology"
+  ]
+}
+
