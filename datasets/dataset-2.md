@@ -18,5 +18,10 @@ repositories:
     note: "IDs from J Struct Biol X 2025 paper"
   - type: "SAXS"
     note: "earlier SAXS dataset IDs from cited work"
+publications:
+  - title: "DeCLIC Ca²⁺-stabilised N-terminal domain structure"
+    venue: "J Struct Biol X (2025)"
+    doi: "10.1016/j.yjsbx.2025.100139"
+    url: "https://doi.org/10.1016/j.yjsbx.2025.100139"
 ---
 

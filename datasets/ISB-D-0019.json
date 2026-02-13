@@ -1,0 +1,28 @@
+{
+  "id": "ISB-D-0019",
+  "portal_index": 19,
+  "title": "N-Myc MB0-MBI region with Aurora kinase A",
+  "portal_description": "The N-Myc MB0-MBI region interacts specifically and dynamically with the N-lobe of Aurora kinase A; multitechnique structural and proteomics analysis.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-20.html",
+  "unit_facility": "Clinical Proteomics / Structural Biology",
+  "system_target": "N-Myc MB0-MBI region interacts with the N-lobe of Aurora kinase A.",
+  "organism_source": "Human N-Myc / Aurora A",
+  "approx_data_collection_years": "~2020-2022",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "PRIDE (PXD067296, PXD061403, PXD023122)",
+  "techniques": [
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "xl_ms", "label": "Cross-linking MS (XL-MS)"},
+    {"code": "biophysics", "label": "Biophysics (ITC/SPR/MST/DSF etc.)"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "PRIDE", "accession": "PXD067296", "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD067296", "relation": "primary_dataset"},
+    {"kind": "PRIDE", "accession": "PXD061403", "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD061403", "relation": "related_dataset"},
+    {"kind": "PRIDE", "accession": "PXD023122", "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD023122", "relation": "related_dataset"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "The N-Myc MB0-MBI region interacts specifically and dynamically with the N-lobe of Aurora kinase A", "venue": "Nat Commun (TBA)", "relation": "primary_publication"}
+  ],
+  "keywords": ["N-Myc", "Aurora A", "PRIDE", "structural proteomics"]
+}

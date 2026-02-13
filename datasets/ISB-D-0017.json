@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0017",
+  "portal_index": 17,
+  "title": "ER membrane remodeling by Sec61/TRAP translocon",
+  "portal_description": "Molecular view of ER membrane remodeling by the Sec61/TRAP translocon; cryo-EM structures integrated with MD simulations.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-18.html",
+  "unit_facility": "Cryo-EM Swedish Nat. Facility (Stockholm) / ISB",
+  "system_target": "Molecular view of ER membrane remodeling by the Sec61/TRAP translocon.",
+  "organism_source": "Mammalian Sec61/TRAP translocon",
+  "approx_data_collection_years": "~2021-2023",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "PDB + EMDB; EMBO Rep. (2023)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "md_simulation", "label": "MD / other simulations"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "doi": "10.15252/embr.202357910", "url": "https://doi.org/10.15252/embr.202357910", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Molecular view of ER membrane remodeling by the Sec61/TRAP translocon", "venue": "EMBO Rep. (2023)", "doi": "10.15252/embr.202357910", "url": "https://doi.org/10.15252/embr.202357910", "relation": "primary_publication"}
+  ],
+  "keywords": ["Sec61", "TRAP", "translocon", "ER membrane", "cryo-EM", "MD"]
+}

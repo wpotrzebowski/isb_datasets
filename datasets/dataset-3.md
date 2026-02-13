@@ -26,5 +26,10 @@ repositories:
     note: "Cell Reports 43:114207 (2024)"
   - type: "MS dataset"
     note: "ID (likely PRIDE) to be added from paper"
+publications:
+  - title: "MUC2 CysD2 domain structure and mucin network organisation"
+    venue: "Cell Reports (2024)"
+    doi: "10.1016/j.celrep.2024.114207"
+    url: "https://doi.org/10.1016/j.celrep.2024.114207"
 ---
 

@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0015",
+  "portal_index": 15,
+  "title": "Affinity-Purification combined with Crosslinking MS for host-pathogen complexes",
+  "portal_description": "Affinity-purification combined with crosslinking mass spectrometry for identification and structural modeling of host-pathogen protein-protein complexes.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-16.html",
+  "unit_facility": "Clinical Proteomics and Immunology / Malmström Lab (Lund)",
+  "system_target": "AP combined with XL-MS for host-pathogen protein-protein complex identification and structural modeling.",
+  "organism_source": "Host-pathogen systems",
+  "approx_data_collection_years": "~2020-2023",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Methods Mol. Biol. (2023); PRIDE as cited",
+  "techniques": [
+    {"code": "xl_ms", "label": "Cross-linking MS (XL-MS)"},
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "doi": "10.1007/978-1-0716-3243-7_12", "url": "https://doi.org/10.1007/978-1-0716-3243-7_12", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Affinity-Purification Combined with Crosslinking Mass Spectrometry for Identification and Structural Modeling of Host-Pathogen Protein-Protein Complexes", "venue": "Methods Mol. Biol. (2023)", "doi": "10.1007/978-1-0716-3243-7_12", "url": "https://doi.org/10.1007/978-1-0716-3243-7_12", "relation": "primary_publication"}
+  ],
+  "keywords": ["AP-MS", "XL-MS", "host-pathogen", "structural proteomics"]
+}

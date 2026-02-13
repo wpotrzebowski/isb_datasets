@@ -18,5 +18,6 @@ repositories:
         text: "DOI 10.17044/SCILIFELAB.29328587"
   - type: "Additional data"
     note: "plus raw/processed SAXS/SANS & PDB snapshots"
+publications: []
 ---
 

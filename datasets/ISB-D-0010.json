@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0010",
+  "portal_index": 10,
+  "title": "Multimodal Mass Spectrometry - S. pyogenes Streptolysin O epitope",
+  "portal_description": "Multimodal mass spectrometry identifies a conserved protective epitope in S. pyogenes Streptolysin O; combines multiple MS strategies for epitope discovery and validation.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-11.html",
+  "unit_facility": "Clinical Proteomics and Immunology / Malmström Lab (Lund)",
+  "system_target": "Multimodal mass spectrometry identifies a conserved protective epitope in S. pyogenes Streptolysin O; combines multiple MS strategies for epitope discovery and validation.",
+  "organism_source": "Streptococcus pyogenes (Streptolysin O)",
+  "approx_data_collection_years": "~2023–2024",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Anal. Chem. (2024) - supplementary data; PRIDE if deposited",
+  "techniques": [
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "biophysics", "label": "Biophysics (ITC/SPR/MST/DSF etc.)"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "doi": "10.1021/acs.analchem.4c00596", "url": "https://doi.org/10.1021/acs.analchem.4c00596", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Multimodal Mass Spectrometry Identifies a Conserved Protective Epitope in S. pyogenes Streptolysin O", "venue": "Anal. Chem. (2024)", "doi": "10.1021/acs.analchem.4c00596", "url": "https://doi.org/10.1021/acs.analchem.4c00596", "relation": "primary_publication"}
+  ],
+  "keywords": ["multimodal MS", "Streptolysin O", "epitope", "S. pyogenes"]
+}

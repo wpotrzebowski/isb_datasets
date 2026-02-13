@@ -1,0 +1,27 @@
+{
+  "id": "ISB-D-0011",
+  "portal_index": 11,
+  "title": "S. pyogenes M1 protein - integrative structural biology",
+  "portal_description": "Structural determination of Streptococcus pyogenes M1 protein interactions with human immunoglobulin G using integrative structural biology; XL-MS, HDX-MS and computational modelling.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-12.html",
+  "unit_facility": "Clinical Proteomics and Immunology / Malmström Lab (Lund)",
+  "system_target": "Structural determination of Streptococcus pyogenes M1 protein interactions with human immunoglobulin G using integrative structural biology; XL-MS, HDX-MS and computational modelling.",
+  "organism_source": "Streptococcus pyogenes M1 / Human IgG",
+  "approx_data_collection_years": "~2019–2021",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "PDB; PRIDE (PXD021266); PLoS Comput. Biol. supplementary",
+  "techniques": [
+    {"code": "xl_ms", "label": "Cross-linking MS (XL-MS)"},
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "biophysics", "label": "Biophysics (ITC/SPR/MST/DSF etc.)"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "PRIDE", "accession": "PXD021266", "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD021266", "relation": "primary_dataset"},
+    {"kind": "Publication", "doi": "10.1371/journal.pcbi.1008169", "url": "https://doi.org/10.1371/journal.pcbi.1008169", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Structural determination of Streptococcus pyogenes M1 protein interactions with human immunoglobulin G using integrative structural biology", "venue": "PLoS Comput. Biol. (2021)", "doi": "10.1371/journal.pcbi.1008169", "url": "https://doi.org/10.1371/journal.pcbi.1008169", "relation": "primary_publication"}
+  ],
+  "keywords": ["M1 protein", "S. pyogenes", "integrative structural biology", "XL-MS", "IgG"]
+}

@@ -107,6 +107,61 @@
       "id": "ISB-D-0008",
       "portal_index": 8,
       "file": "ISB-D-0008.json"
+    },
+    {
+      "id": "ISB-D-0009",
+      "portal_index": 9,
+      "file": "ISB-D-0009.json"
+    },
+    {
+      "id": "ISB-D-0010",
+      "portal_index": 10,
+      "file": "ISB-D-0010.json"
+    },
+    {
+      "id": "ISB-D-0011",
+      "portal_index": 11,
+      "file": "ISB-D-0011.json"
+    },
+    {
+      "id": "ISB-D-0012",
+      "portal_index": 12,
+      "file": "ISB-D-0012.json"
+    },
+    {
+      "id": "ISB-D-0013",
+      "portal_index": 13,
+      "file": "ISB-D-0013.json"
+    },
+    {
+      "id": "ISB-D-0014",
+      "portal_index": 14,
+      "file": "ISB-D-0014.json"
+    },
+    {
+      "id": "ISB-D-0015",
+      "portal_index": 15,
+      "file": "ISB-D-0015.json"
+    },
+    {
+      "id": "ISB-D-0016",
+      "portal_index": 16,
+      "file": "ISB-D-0016.json"
+    },
+    {
+      "id": "ISB-D-0017",
+      "portal_index": 17,
+      "file": "ISB-D-0017.json"
+    },
+    {
+      "id": "ISB-D-0018",
+      "portal_index": 18,
+      "file": "ISB-D-0018.json"
+    },
+    {
+      "id": "ISB-D-0019",
+      "portal_index": 19,
+      "file": "ISB-D-0019.json"
     }
   ],
   "mapping": {

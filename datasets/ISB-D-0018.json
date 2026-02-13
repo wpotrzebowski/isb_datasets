@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0018",
+  "portal_index": 18,
+  "title": "ApoA-I amyloidogenic variants - structure dynamics in small HDL",
+  "portal_description": "Structure dynamics of ApoA-I amyloidogenic variants in small HDL increase their ability to mediate cholesterol efflux; HDX-MS and structural analysis.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-19.html",
+  "unit_facility": "Swedish NMR Centre / Mass spectrometry",
+  "system_target": "Structure dynamics of ApoA-I amyloidogenic variants in small HDL.",
+  "organism_source": "Human ApoA-I / HDL",
+  "approx_data_collection_years": "~2019-2020",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "J. Lipid Res.; PRIDE (public HDX dataset)",
+  "techniques": [
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "biophysics", "label": "Biophysics (ITC/SPR/MST/DSF etc.)"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "doi": "10.1194/jlr.RA120000920", "url": "https://doi.org/10.1194/jlr.RA120000920", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Structure dynamics of ApoA-I amyloidogenic variants in small HDL increase their ability to mediate cholesterol efflux", "venue": "J. Lipid Res. (2020)", "doi": "10.1194/jlr.RA120000920", "url": "https://doi.org/10.1194/jlr.RA120000920", "relation": "primary_publication"}
+  ],
+  "keywords": ["ApoA-I", "HDL", "HDX-MS", "cholesterol efflux"]
+}

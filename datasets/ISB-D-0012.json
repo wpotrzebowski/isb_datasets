@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0012",
+  "portal_index": 12,
+  "title": "In vivo Cross-Linking MS - Complement MAC on Gram-positive bacteria",
+  "portal_description": "In vivo cross-linking mass spectrometry of the Complement System MAC (Membrane Attack Complex) assembled on live Gram-positive bacteria; structural proteomics in native context.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-13.html",
+  "unit_facility": "Clinical Proteomics and Immunology / Malmström Lab (Lund)",
+  "system_target": "In vivo cross-linking mass spectrometry of the Complement System MAC (Membrane Attack Complex) assembled on live Gram-positive bacteria; structural proteomics in native context.",
+  "organism_source": "Gram-positive bacteria; human complement MAC",
+  "approx_data_collection_years": "~2019–2020",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "PRIDE (PXD019953 or equivalent); Front. Genet. supplementary",
+  "techniques": [
+    {"code": "xl_ms", "label": "Cross-linking MS (XL-MS)"},
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "doi": "10.3389/fgene.2020.612475", "url": "https://doi.org/10.3389/fgene.2020.612475", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "In vivo Cross-Linking MS of the Complement System MAC Assembled on Live Gram-Positive Bacteria", "venue": "Front. Genet. (2021)", "doi": "10.3389/fgene.2020.612475", "url": "https://doi.org/10.3389/fgene.2020.612475", "relation": "primary_publication"}
+  ],
+  "keywords": ["complement MAC", "in vivo XL-MS", "Gram-positive bacteria", "Malmström"]
+}

@@ -82,6 +82,29 @@
                 </ul>
             </div>
 
+            {% if publications %}
+            <div class="info-section">
+                <h3>Publications</h3>
+                <ul class="publication-list">
+                    {% for pub in publications %}
+                    <li class="publication-item">
+                        {% if pub.url %}
+                        <a href="{{pub.url}}" target="_blank" class="pub-title">{{pub.title}}</a>
+                        {% else %}
+                        <span class="pub-title">{{pub.title}}</span>
+                        {% endif %}
+                        {% if pub.venue %}
+                        <span class="pub-venue">{{pub.venue}}</span>
+                        {% endif %}
+                        {% if pub.doi %}
+                        <span class="pub-doi">DOI: <a href="https://doi.org/{{pub.doi}}" target="_blank">{{pub.doi}}</a></span>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
             {% if content %}
             <div class="info-section">
                 {{content|safe}}

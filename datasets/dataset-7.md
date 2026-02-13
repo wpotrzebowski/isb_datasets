@@ -18,6 +18,11 @@ repositories:
         text: "DOI 10.17044/SCILIFELAB.22778920"
   - type: "Publication"
     note: "Files with matching identifiers can be combined into multimodal ST-MSI objects"
+publications:
+  - title: "Spatial Multimodal Analysis of Transcriptomes and Metabolomes in Tissues"
+    venue: "bioRxiv (2023, preprint)"
+    doi: "10.1101/2023.01.26.525195"
+    url: "https://doi.org/10.1101/2023.01.26.525195"
 ---
 
 

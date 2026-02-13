@@ -1,0 +1,24 @@
+{
+  "id": "ISB-D-0016",
+  "portal_index": 16,
+  "title": "Actin and tubulin folding inside the TRiC chaperonin",
+  "portal_description": "Snapshots of actin and tubulin folding inside the TRiC chaperonin; near-atomic cryo-EM structures of substrates in the chaperonin cavity.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-17.html",
+  "unit_facility": "Cryo-EM Swedish Nat. Facility (Stockholm) / Uppsala",
+  "system_target": "Snapshots of actin and tubulin folding inside the TRiC chaperonin.",
+  "organism_source": "Human actin / tubulin; TRiC/CCT chaperonin",
+  "approx_data_collection_years": "~2020-2022",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "PDB + EMDB; Nat. Struct. Mol. Biol. (2022)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "doi": "10.1038/s41594-022-00755-1", "url": "https://doi.org/10.1038/s41594-022-00755-1", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Snapshots of actin and tubulin folding inside the TRiC chaperonin", "venue": "Nat. Struct. Mol. Biol. (2022)", "doi": "10.1038/s41594-022-00755-1", "url": "https://doi.org/10.1038/s41594-022-00755-1", "relation": "primary_publication"}
+  ],
+  "keywords": ["TRiC", "CCT", "chaperonin", "actin", "tubulin", "cryo-EM"]
+}

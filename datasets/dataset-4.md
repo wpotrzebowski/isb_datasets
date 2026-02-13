@@ -29,5 +29,10 @@ repositories:
         text: "EMPIAR-12887"
   - type: "SciLifeLab Data Repository"
     note: "dataset \"Structure of the central Staphylococcus aureus AAA+ protease MecA/ClpC/ClpP\""
+publications:
+  - title: "Structure of the central Staphylococcus aureus AAA+ protease MecA/ClpC/ClpP"
+    venue: "Communications Biology (2025)"
+    doi: "10.1038/s42003-025-08908-w"
+    url: "https://doi.org/10.1038/s42003-025-08908-w"
 ---
 

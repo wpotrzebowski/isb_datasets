@@ -20,6 +20,11 @@ repositories:
         note: "(CX-MS datasets)"
   - type: "Publication"
     note: "Comprehensive Structure and Functional Adaptations of the Yeast Nuclear Pore Complex"
+publications:
+  - title: "Comprehensive Structure and Functional Adaptations of the Yeast Nuclear Pore Complex"
+    venue: "Cell (2022)"
+    doi: "10.1016/j.cell.2021.12.015"
+    url: "https://doi.org/10.1016/j.cell.2021.12.015"
 ---
 
 
