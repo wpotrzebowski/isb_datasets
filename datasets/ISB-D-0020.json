@@ -1,0 +1,24 @@
+{
+  "id": "ISB-D-0020",
+  "portal_index": 20,
+  "title": "Glucosinolate diversity in Brassicaceae – MS and NMR",
+  "portal_description": "Glucosinolate diversity in seven field-collected Brassicaceae species; multimodal MS and NMR profiling.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-21.html",
+  "unit_facility": "Glycoproteomics and MS Proteomics / Swedish NMR Centre",
+  "system_target": "Glucosinolate diversity in Brassicaceae species.",
+  "organism_source": "Brassicaceae (field-collected)",
+  "approx_data_collection_years": "~2024-2025",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (PLoS ONE)",
+  "techniques": [
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "nmr", "label": "NMR"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1371/journal.pone.0336172", "url": "https://doi.org/10.1371/journal.pone.0336172", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Glucosinolate diversity in seven field-collected Brassicaceae species.", "venue": "PLoS ONE (2025)", "doi": "10.1371/journal.pone.0336172", "url": "https://doi.org/10.1371/journal.pone.0336172", "relation": "primary_publication"}
+  ],
+  "keywords": ["glucosinolate", "Brassicaceae", "MS", "NMR", "multimodal"]
+}

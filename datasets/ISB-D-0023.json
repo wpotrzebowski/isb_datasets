@@ -1,0 +1,24 @@
+{
+  "id": "ISB-D-0023",
+  "portal_index": 23,
+  "title": "Live fluorescence imaging and cryo-ET of septation in Deinococcus radiodurans",
+  "portal_description": "Septation process in Deinococcus radiodurans; combining live fluorescence imaging with in situ cryoelectron tomography.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-24.html",
+  "unit_facility": "Cryo-EM",
+  "system_target": "Septation in Deinococcus radiodurans.",
+  "organism_source": "Deinococcus radiodurans",
+  "approx_data_collection_years": "~2024-2025",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (PNAS)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "bioinformatics_integration", "label": "Bioinformatics / Data Integration"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1073/pnas.2425047122", "url": "https://doi.org/10.1073/pnas.2425047122", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Combining live fluorescence imaging with in situ cryoelectron tomography sheds light on the septation process in Deinococcus radiodurans.", "venue": "Proc. Natl. Acad. Sci. U.S.A. (2025)", "doi": "10.1073/pnas.2425047122", "url": "https://doi.org/10.1073/pnas.2425047122", "relation": "primary_publication"}
+  ],
+  "keywords": ["cryo-ET", "fluorescence", "CLEM", "septation", "Deinococcus"]
+}

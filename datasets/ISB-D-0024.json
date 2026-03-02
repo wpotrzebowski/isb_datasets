@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0024",
+  "portal_index": 24,
+  "title": "IAPP mutant polymorphism – cryo-EM and integrative analysis",
+  "portal_description": "Diverse polymorphism in IAPP mutants; cryo-EM structures and computational analysis for peptide-based therapeutics.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-25.html",
+  "unit_facility": "Cryo-EM / Integrated Microscopy Technologies Gothenburg / Bioinformatics",
+  "system_target": "IAPP (islet amyloid polypeptide) fibril polymorphism.",
+  "organism_source": "Human IAPP (amylin)",
+  "approx_data_collection_years": "~2024-2025",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (J. Mol. Biol.)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"},
+    {"code": "bioinformatics_integration", "label": "Bioinformatics / Data Integration"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1016/j.jmb.2025.169405", "url": "https://doi.org/10.1016/j.jmb.2025.169405", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Cryo-EM exposes diverse polymorphism in IAPP mutants to guide the rational design of peptide-based therapeutics.", "venue": "J. Mol. Biol. (2025)", "doi": "10.1016/j.jmb.2025.169405", "url": "https://doi.org/10.1016/j.jmb.2025.169405", "relation": "primary_publication"}
+  ],
+  "keywords": ["IAPP", "amylin", "cryo-EM", "fibril", "amyloid"]
+}

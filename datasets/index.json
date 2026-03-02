@@ -162,6 +162,31 @@
       "id": "ISB-D-0019",
       "portal_index": 19,
       "file": "ISB-D-0019.json"
+    },
+    {
+      "id": "ISB-D-0020",
+      "portal_index": 20,
+      "file": "ISB-D-0020.json"
+    },
+    {
+      "id": "ISB-D-0021",
+      "portal_index": 21,
+      "file": "ISB-D-0021.json"
+    },
+    {
+      "id": "ISB-D-0022",
+      "portal_index": 22,
+      "file": "ISB-D-0022.json"
+    },
+    {
+      "id": "ISB-D-0023",
+      "portal_index": 23,
+      "file": "ISB-D-0023.json"
+    },
+    {
+      "id": "ISB-D-0024",
+      "portal_index": 24,
+      "file": "ISB-D-0024.json"
     }
   ],
   "mapping": {

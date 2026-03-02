@@ -1,0 +1,24 @@
+{
+  "id": "ISB-D-0021",
+  "portal_index": 21,
+  "title": "Proteomic and lipidomic profiling of immune cell-derived extracellular vesicles",
+  "portal_description": "Immune cell-derived subpopulations of extracellular vesicles; proteomic and lipidomic profiling combined with microscopy.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-22.html",
+  "unit_facility": "Glycoproteomics and MS Proteomics / Integrated Microscopy Technologies Gothenburg",
+  "system_target": "Immune cell-derived extracellular vesicle subpopulations.",
+  "organism_source": "Human immune cells",
+  "approx_data_collection_years": "~2024-2026",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (Proteomics)",
+  "techniques": [
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "bioinformatics_integration", "label": "Bioinformatics / Data Integration"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1002/pmic.70096", "url": "https://doi.org/10.1002/pmic.70096", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Proteomic and Lipidomic Profiling of Immune Cell-Derived Subpopulations of Extracellular Vesicles", "venue": "Proteomics (2026)", "doi": "10.1002/pmic.70096", "url": "https://doi.org/10.1002/pmic.70096", "relation": "primary_publication"}
+  ],
+  "keywords": ["extracellular vesicles", "proteomics", "lipidomics", "immune cells"]
+}

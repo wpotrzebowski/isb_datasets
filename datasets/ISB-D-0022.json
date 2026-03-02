@@ -1,0 +1,24 @@
+{
+  "id": "ISB-D-0022",
+  "portal_index": 22,
+  "title": "CRESS-DNA bacilladnaviruses – cryo-EM and computational modelling",
+  "portal_description": "Structural diversity and conservation among CRESS-DNA bacilladnaviruses; integrative cryo-EM and computational modelling.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-23.html",
+  "unit_facility": "Cryo-EM",
+  "system_target": "CRESS-DNA bacilladnaviruses structure and diversity.",
+  "organism_source": "Bacilladnaviruses (CRESS-DNA viruses)",
+  "approx_data_collection_years": "~2024-2025",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (Virol J)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1186/s12985-025-03019-8", "url": "https://doi.org/10.1186/s12985-025-03019-8", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Structural diversity and conservation among CRESS-DNA bacilladnaviruses revealed through cryo-EM and computational modelling", "venue": "Virol J (2025)", "doi": "10.1186/s12985-025-03019-8", "url": "https://doi.org/10.1186/s12985-025-03019-8", "relation": "primary_publication"}
+  ],
+  "keywords": ["bacilladnavirus", "CRESS-DNA", "cryo-EM", "computational modelling"]
+}
