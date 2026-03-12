@@ -6,7 +6,7 @@ system_target: "Comprehensive structure and functional adaptations of the yeast 
 organism_source: "Saccharomyces cerevisiae"
 data_collection_years: "~2020–2021"
 access_status: "Public"
-main_repository: "Zenodo + PDB"
+main_repository: "Zenodo + PDB + PDB-IHM"
 techniques:
   - "Cross-linking MS (XL-MS)"
   - "Cryo-EM"
@@ -18,6 +18,14 @@ repositories:
       - url: "https://zenodo.org/records/5721514"
         text: "Zenodo 5721514"
         note: "(CX-MS datasets)"
+  - type: "PDB-IHM"
+    links:
+      - url: "https://pdb-ihm.org/entry.html?8ZZC"
+        text: "8ZZC"
+        note: "Integrative structure of 8 NPC spokes (CX-MS, cryo-ET, SAS)"
+      - url: "https://pdb-ihm.org/entry.html?9A0F"
+        text: "9A0F"
+        note: "Integrative model of wild-type yeast NPC"
   - type: "Publication"
     note: "Comprehensive Structure and Functional Adaptations of the Yeast Nuclear Pore Complex"
 publications:

@@ -6,7 +6,7 @@ system_target: "Central AAA⁺ protease MecA/ClpC/ClpP from S. aureus; near-atom
 organism_source: "Staphylococcus aureus"
 data_collection_years: "~2022–2025"
 access_status: "Public"
-main_repository: "PDB + EMDB + EMPIAR + SciLifeLab Data Repository"
+main_repository: "PDB + EMDB + EMPIAR + PDB-IHM + PRIDE + SciLifeLab Data Repository"
 techniques:
   - "Cryo-EM"
   - "Biophysics (ITC/SPR/MST/DSF etc.)"
@@ -27,6 +27,16 @@ repositories:
     links:
       - url: "https://www.ebi.ac.uk/empiar/EMPIAR-12887"
         text: "EMPIAR-12887"
+  - type: "PDB-IHM"
+    links:
+      - url: "https://pdb-ihm.org/entry.html?9A66"
+        text: "9A66"
+        note: "Integrative ClpC-ClpP model (XL-MS + deep learning); crosslinking data in PRIDE"
+  - type: "PRIDE"
+    links:
+      - url: "https://www.ebi.ac.uk/pride/archive/projects/PXD035508"
+        text: "PXD035508"
+        note: "Crosslinking-MS data for PDB-IHM 9A66"
   - type: "SciLifeLab Data Repository"
     note: "dataset \"Structure of the central Staphylococcus aureus AAA+ protease MecA/ClpC/ClpP\""
 publications:

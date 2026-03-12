@@ -13,7 +13,7 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/"
   },
-  "main_public_repository_storage": "Zenodo + PDB",
+  "main_public_repository_storage": "Zenodo + PDB + PDB-IHM",
   "techniques": [
     {
       "code": "xl_ms",
@@ -42,11 +42,25 @@
       "note": "Portal links to Zenodo record 5721514 (CX-MS datasets)."
     },
     {
+      "kind": "PDB-IHM",
+      "accession": "8ZZC",
+      "url": "https://pdb-ihm.org/entry.html?8ZZC",
+      "relation": "related_structure",
+      "note": "Integrative structure of 8 NPC spokes (CX-MS, cryo-ET, SAS)"
+    },
+    {
+      "kind": "PDB-IHM",
+      "accession": "9A0F",
+      "url": "https://pdb-ihm.org/entry.html?9A0F",
+      "relation": "related_structure",
+      "note": "Integrative model of wild-type yeast NPC"
+    },
+    {
       "kind": "PDB",
       "accession": null,
       "url": null,
       "relation": "structure_models",
-      "note": "Portal lists PDB as a main repository but does not yet specify accession IDs."
+      "note": "Portal lists PDB as a main repository; 7N85, 7WOO from Cell (2022) paper."
     }
   ],
   "publications": [
