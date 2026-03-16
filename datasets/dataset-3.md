@@ -24,6 +24,10 @@ repositories:
         text: "SASDSG5"
   - type: "Publication"
     note: "Cell Reports 43:114207 (2024)"
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/76486096fa78479393580a73fb642360"
+        text: "SciLifeLab Publication"
   - type: "MS dataset"
     note: "ID (likely PRIDE) to be added from paper"
 publications:
@@ -31,5 +35,6 @@ publications:
     venue: "Cell Reports (2024)"
     doi: "10.1016/j.celrep.2024.114207"
     url: "https://doi.org/10.1016/j.celrep.2024.114207"
+    pmid: "38733585"
 ---
 

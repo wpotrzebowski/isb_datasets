@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0031",
+  "portal_index": 31,
+  "title": "Nucleotide binding to ATP-cone in anaerobic ribonucleotide reductases",
+  "portal_description": "Nucleotide binding to the ATP-cone domain in anaerobic ribonucleotide reductases; cryo-EM and structural proteomics.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-32.html",
+  "unit_facility": "Cryo-EM / Structural Proteomics",
+  "system_target": "ATP-cone domain; nucleotide regulation in anaerobic RNRs",
+  "organism_source": "Anaerobic ribonucleotide reductase (bacterial)",
+  "approx_data_collection_years": "~2024",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (eLife)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "ms_proteomics", "label": "Structural Proteomics"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.7554/elife.89292.4", "url": "https://doi.org/10.7554/elife.89292.4", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Nucleotide binding to the ATP-cone domain in anaerobic ribonucleotide reductases", "venue": "eLife (2024)", "doi": "10.7554/elife.89292.4", "url": "https://doi.org/10.7554/elife.89292.4", "relation": "primary_publication"}
+  ],
+  "keywords": ["ribonucleotide reductase", "ATP-cone", "cryo-EM", "structural proteomics"]
+}

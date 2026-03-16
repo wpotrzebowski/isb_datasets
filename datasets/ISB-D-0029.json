@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0029",
+  "portal_index": 29,
+  "title": "Plasticized lignins – NMR and SAXS",
+  "portal_description": "Morphology and molecular mobility of plasticized lignins studied with polarization transfer solid-state NMR and SAXS.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-30.html",
+  "unit_facility": "Swedish NMR Centre",
+  "system_target": "Plasticized lignins; morphology and molecular mobility",
+  "organism_source": "Lignin (plant-derived polymer)",
+  "approx_data_collection_years": "~2024-2025",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (Polymer Testing)",
+  "techniques": [
+    {"code": "nmr", "label": "NMR"},
+    {"code": "saxs", "label": "SAXS"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1016/j.polymertesting.2025.108942", "url": "https://doi.org/10.1016/j.polymertesting.2025.108942", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Morphology and molecular mobility of plasticized lignins studied with polarization transfer solid-state NMR and SAXS", "venue": "Polymer Testing (2025)", "doi": "10.1016/j.polymertesting.2025.108942", "url": "https://doi.org/10.1016/j.polymertesting.2025.108942", "relation": "primary_publication"}
+  ],
+  "keywords": ["lignin", "NMR", "SAXS", "plasticization"]
+}

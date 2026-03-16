@@ -9,6 +9,7 @@ access_status: "Public"
 main_repository: "PDB + EMDB + EMPIAR + PDB-IHM + PRIDE + SciLifeLab Data Repository"
 techniques:
   - "Cryo-EM"
+  - "MS / Proteomics"
   - "Biophysics (ITC/SPR/MST/DSF etc.)"
   - "Integrative / computational modelling (non-MD)"
 repositories:
@@ -39,10 +40,15 @@ repositories:
         note: "Crosslinking-MS data for PDB-IHM 9A66"
   - type: "SciLifeLab Data Repository"
     note: "dataset \"Structure of the central Staphylococcus aureus AAA+ protease MecA/ClpC/ClpP\""
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/73fee7c76bfd49a6944ca090feb04ef1"
+        text: "SciLifeLab Publication"
 publications:
   - title: "Structure of the central Staphylococcus aureus AAA+ protease MecA/ClpC/ClpP"
     venue: "Communications Biology (2025)"
     doi: "10.1038/s42003-025-08908-w"
     url: "https://doi.org/10.1038/s42003-025-08908-w"
+    pmid: "41087538"
 ---
 

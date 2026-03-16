@@ -1,0 +1,26 @@
+{
+  "id": "ISB-D-0030",
+  "portal_index": 30,
+  "title": "Fluorescent probe for imaging Bruton's tyrosine kinase",
+  "portal_description": "Fluorescent probe for imaging Bruton's tyrosine kinase (BTK); glycoproteomics/MS, microscopy, and NMR.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-31.html",
+  "unit_facility": "Glycoproteomics and MS Proteomics / Integrated Microscopy / Swedish NMR Centre",
+  "system_target": "BTK-targeting fluorescent probe; multimodal characterisation",
+  "organism_source": "Human BTK",
+  "approx_data_collection_years": "~2023-2024",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (RSC Chem. Biol.)",
+  "techniques": [
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "ms_proteomics", "label": "Glycoproteomics"},
+    {"code": "bioinformatics_integration", "label": "Integrated Microscopy"},
+    {"code": "nmr", "label": "NMR"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1039/d4cb00313f", "url": "https://doi.org/10.1039/d4cb00313f", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Fluorescent probe for imaging Bruton's tyrosine kinase", "venue": "RSC Chem. Biol. (2024)", "doi": "10.1039/d4cb00313f", "url": "https://doi.org/10.1039/d4cb00313f", "relation": "primary_publication"}
+  ],
+  "keywords": ["BTK", "fluorescent probe", "NMR", "MS", "microscopy"]
+}

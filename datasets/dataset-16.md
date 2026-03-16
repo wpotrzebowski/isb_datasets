@@ -8,10 +8,13 @@ data_collection_years: "~2020–2023"
 access_status: "Public"
 main_repository: "Methods Mol. Biol. (2023); PRIDE datasets as cited"
 techniques:
-  - "Cross-linking MS (XL-MS)"
   - "MS / Proteomics"
   - "Integrative / computational modelling (non-MD)"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/ccec93113b0046be88a42d4641dcdbdb"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1007/978-1-0716-3243-7_12"
@@ -21,6 +24,7 @@ publications:
     venue: "Methods Mol. Biol. (2023)"
     doi: "10.1007/978-1-0716-3243-7_12"
     url: "https://doi.org/10.1007/978-1-0716-3243-7_12"
+    pmid: "37258968"
 ---
 
 AP–XL-MS workflow for host–pathogen interactomics. From the publication list.

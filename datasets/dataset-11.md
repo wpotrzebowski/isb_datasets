@@ -12,6 +12,10 @@ techniques:
   - "Biophysics (ITC/SPR/MST/DSF etc.)"
   - "Integrative / computational modelling (non-MD)"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/561c1367fa4c47edb3391e98dc896b3a"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1021/acs.analchem.4c00596"

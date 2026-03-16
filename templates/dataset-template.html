@@ -99,6 +99,9 @@
                         {% if pub.doi %}
                         <span class="pub-doi">DOI: <a href="https://doi.org/{{pub.doi}}" target="_blank">{{pub.doi}}</a></span>
                         {% endif %}
+                        {% if pub.pmid %}
+                        <span class="pub-pmid">PubMed: <a href="https://pubmed.ncbi.nlm.nih.gov/{{pub.pmid}}" target="_blank">{{pub.pmid}}</a></span>
+                        {% endif %}
                     </li>
                     {% endfor %}
                 </ul>

@@ -12,6 +12,10 @@ techniques:
   - "Biophysics (ITC/SPR/MST/DSF etc.)"
   - "Integrative / computational modelling (non-MD)"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/be1ccad457054a6ca82002c69b0dacdb"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1038/s41467-024-54173-6"
@@ -21,6 +25,7 @@ publications:
     venue: "Nat Commun (2024)"
     doi: "10.1038/s41467-024-54173-6"
     url: "https://doi.org/10.1038/s41467-024-54173-6"
+    pmid: "39587097"
 ---
 
 Proteomics and kinetics of SLO–plasminogen. From the publication list.

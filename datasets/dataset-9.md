@@ -8,10 +8,9 @@ data_collection_years: "~2020–2021"
 access_status: "Public"
 main_repository: "Zenodo + PDB + PDB-IHM"
 techniques:
-  - "Cross-linking MS (XL-MS)"
+  - "MS / Proteomics"
   - "Cryo-EM"
   - "Integrative / computational modelling"
-  - "MS / Proteomics"
 repositories:
   - type: "Zenodo"
     links:

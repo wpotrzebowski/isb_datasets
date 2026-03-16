@@ -12,6 +12,10 @@ techniques:
   - "MD / other simulations"
   - "Integrative / computational modelling (non-MD)"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/598feb16626f43cdb791a3f07b3a488b"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.15252/embr.202357910"
@@ -21,6 +25,7 @@ publications:
     venue: "EMBO Rep. (2023)"
     doi: "10.15252/embr.202357910"
     url: "https://doi.org/10.15252/embr.202357910"
+    pmid: "37983950"
 ---
 
 Cryo-EM + MD of Sec61/TRAP. From the publication list.

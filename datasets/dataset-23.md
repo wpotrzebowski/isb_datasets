@@ -11,6 +11,10 @@ techniques:
   - "Cryo-EM"
   - "Integrative / computational modelling (non-MD)"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/317e66a79e9c40cebe92b74f879e04b3"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1186/s12985-025-03019-8"

@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0025",
+  "portal_index": 25,
+  "title": "TBEV structure, pathogenicity and tropism – pre-membrane and envelope proteins",
+  "portal_description": "Influence of the pre-membrane and envelope proteins on structure, pathogenicity, and tropism of tick-borne encephalitis virus; cryo-EM and glycoproteomic analysis.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-26.html",
+  "unit_facility": "Cryo-EM / Glycoproteomics and MS Proteomics",
+  "system_target": "TBEV pre-membrane and envelope proteins; structure, pathogenicity and tropism",
+  "organism_source": "Tick-borne encephalitis virus",
+  "approx_data_collection_years": "~2024-2025",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (J. Virol.)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "ms_proteomics", "label": "Glycoproteomics"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1128/jvi.00870-25", "url": "https://doi.org/10.1128/jvi.00870-25", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Influence of the pre-membrane and envelope proteins on structure, pathogenicity, and tropism of tick-borne encephalitis virus", "venue": "J. Virol. (2025)", "doi": "10.1128/jvi.00870-25", "url": "https://doi.org/10.1128/jvi.00870-25", "relation": "primary_publication"}
+  ],
+  "keywords": ["TBEV", "cryo-EM", "glycoproteomics", "flavivirus"]
+}

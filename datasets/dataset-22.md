@@ -11,6 +11,10 @@ techniques:
   - "MS / Proteomics"
   - "Bioinformatics / Data Integration"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/a51aace6039f4479909a5aafa46886fb"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1002/pmic.70096"
@@ -20,6 +24,7 @@ publications:
     venue: "Proteomics (2026)"
     doi: "10.1002/pmic.70096"
     url: "https://doi.org/10.1002/pmic.70096"
+    pmid: "41518059"
 ---
 
 Multimodal MS-based proteomics and lipidomics of extracellular vesicle subpopulations from immune cells, supported by microscopy characterisation.

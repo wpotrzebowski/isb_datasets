@@ -1,0 +1,26 @@
+{
+  "id": "ISB-D-0034",
+  "portal_index": 34,
+  "title": "Integrative toolbox for protein–surfactant complexes – NMR and SAXS/SANS",
+  "portal_description": "Integrative toolbox for characterisation of protein–surfactant complexes; NMR, SAXS and SANS.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-35.html",
+  "unit_facility": "Swedish NMR Centre",
+  "system_target": "Protein–surfactant complexes; structure and dynamics",
+  "organism_source": "Protein–surfactant model systems",
+  "approx_data_collection_years": "~2020",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (Nanoscale Adv.)",
+  "techniques": [
+    {"code": "nmr", "label": "NMR"},
+    {"code": "saxs", "label": "SAXS"},
+    {"code": "sans", "label": "SANS"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1039/d0na00194e", "url": "https://doi.org/10.1039/d0na00194e", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Integrative toolbox for protein–surfactant complexes – NMR, SAXS and SANS", "venue": "Nanoscale Adv. (2020)", "doi": "10.1039/d0na00194e", "url": "https://doi.org/10.1039/d0na00194e", "relation": "primary_publication"}
+  ],
+  "keywords": ["protein-surfactant", "NMR", "SAXS", "SANS"]
+}

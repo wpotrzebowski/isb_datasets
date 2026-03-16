@@ -32,10 +32,15 @@ repositories:
         note: "(raw cryo-EM movie)"
   - type: "MS dataset"
     note: "ID to be added (PRIDE or similar)"
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/d8643fc1bb1a43d3b9fd1f76d1c85fec"
+        text: "SciLifeLab Publication"
 publications:
   - title: "Structural mechanism of FusB-mediated rescue from fusidic acid inhibition of protein synthesis"
     venue: "Nature Communications (2025)"
     doi: "10.1038/s41467-025-58902-3"
     url: "https://doi.org/10.1038/s41467-025-58902-3"
+    pmid: "40251147"
 ---
 

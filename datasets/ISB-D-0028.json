@@ -1,0 +1,26 @@
+{
+  "id": "ISB-D-0028",
+  "portal_index": 28,
+  "title": "MakA cytotoxin oligomerization – protein-lipid interaction at low pH",
+  "portal_description": "Protein-lipid interaction at low pH induces oligomerization of the MakA cytotoxin from Vibrio cholerae; cryo-EM, microscopy and NMR.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-29.html",
+  "unit_facility": "Cryo-EM / Integrated Microscopy / Swedish NMR Centre",
+  "system_target": "MakA cytotoxin oligomerization; protein-lipid interaction",
+  "organism_source": "Vibrio cholerae (MakA)",
+  "approx_data_collection_years": "~2021-2022",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (eLife)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "nmr", "label": "NMR"},
+    {"code": "bioinformatics_integration", "label": "Integrated Microscopy"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.7554/eLife.73439", "url": "https://doi.org/10.7554/eLife.73439", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Protein-lipid interaction at low pH induces oligomerization of the MakA cytotoxin from Vibrio cholerae", "venue": "eLife (2022)", "doi": "10.7554/eLife.73439", "url": "https://doi.org/10.7554/eLife.73439", "relation": "primary_publication"}
+  ],
+  "keywords": ["MakA", "Vibrio cholerae", "cryo-EM", "NMR", "cytotoxin"]
+}

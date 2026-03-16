@@ -1,0 +1,26 @@
+{
+  "id": "ISB-D-0027",
+  "portal_index": 27,
+  "title": "TBEV – ACBD3 coordinates ER-Golgi contacts for productive infection",
+  "portal_description": "The ACBD3 protein coordinates ER-Golgi contacts to enable productive TBEV infection; multimodal cryo-EM, glycoproteomics and microscopy.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-28.html",
+  "unit_facility": "Cryo-EM / Glycoproteomics and MS Proteomics / Integrated Microscopy",
+  "system_target": "ACBD3–ER-Golgi interface for TBEV infection",
+  "organism_source": "Tick-borne encephalitis virus / Mammalian cells",
+  "approx_data_collection_years": "~2024-2025",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (J. Virol.)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "ms_proteomics", "label": "Glycoproteomics"},
+    {"code": "bioinformatics_integration", "label": "Integrated Microscopy"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1128/jvi.02224-24", "url": "https://doi.org/10.1128/jvi.02224-24", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "The ACBD3 protein coordinates ER-Golgi contacts to enable productive TBEV infection", "venue": "J. Virol. (2025)", "doi": "10.1128/jvi.02224-24", "url": "https://doi.org/10.1128/jvi.02224-24", "relation": "primary_publication"}
+  ],
+  "keywords": ["TBEV", "ACBD3", "cryo-EM", "glycoproteomics", "ER-Golgi"]
+}

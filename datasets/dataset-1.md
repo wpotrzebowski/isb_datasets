@@ -34,6 +34,10 @@ repositories:
     links:
       - url: "https://doi.org/10.17044/SCILIFELAB.21908892"
         text: "DOI 10.17044/SCILIFELAB.21908892"
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/1ac03df38de0420faa42a40e99fa821b"
+        text: "SciLifeLab Publication"
 publications:
   - title: "Discovery of lipid binding sites in a ligand-gated ion channel by integrating simulations and cryo-EM"
     venue: "eLife (2024)"

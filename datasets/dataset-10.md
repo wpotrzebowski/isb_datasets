@@ -8,7 +8,6 @@ data_collection_years: "~2023–2025"
 access_status: "Public"
 main_repository: "PRIDE / ProteomeXchange; publication supplementary data"
 techniques:
-  - "Cross-linking MS (XL-MS)"
   - "MS / Proteomics"
   - "Integrative / computational modelling (non-MD)"
 repositories:
@@ -16,6 +15,10 @@ repositories:
     links:
       - url: "https://doi.org/10.3390/ijms26041488"
         text: "Int J Mol Sci (2025)"
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/84529861f56b4d64a3f4945924b378a1"
+        text: "SciLifeLab Publication"
   - type: "Proteomics"
     note: "XL-MS dataset (PRIDE/PXD - ID to be confirmed from publication)"
 publications:
@@ -23,6 +26,7 @@ publications:
     venue: "Int J Mol Sci (2025)"
     doi: "10.3390/ijms26041488"
     url: "https://doi.org/10.3390/ijms26041488"
+    pmid: "40003954"
 ---
 
 Epitope mapping workflow combining XL-MS with structural modeling. From the publication list.

@@ -12,6 +12,10 @@ techniques:
   - "Biophysics (ITC/SPR/MST/DSF etc.)"
   - "Integrative / computational modelling (non-MD)"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/fff3f8ee4ff74f7c80d36a32e38892fe"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1194/jlr.RA120000920"
@@ -21,6 +25,7 @@ publications:
     venue: "J. Lipid Res. (2020)"
     doi: "10.1194/jlr.RA120000920"
     url: "https://doi.org/10.1194/jlr.RA120000920"
+    pmid: "33410751"
 ---
 
 HDX-MS of ApoA-I variants. From the publication list.

@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0033",
+  "portal_index": 33,
+  "title": "MALT1 allostery from NMR and AlphaFold",
+  "portal_description": "Allosteric regulation of MALT1 paracaspase; NMR and AlphaFold integrative analysis.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-34.html",
+  "unit_facility": "Swedish NMR Centre",
+  "system_target": "MALT1 paracaspase allostery; structural dynamics",
+  "organism_source": "Human MALT1",
+  "approx_data_collection_years": "~2023-2024",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (Commun. Biol.)",
+  "techniques": [
+    {"code": "nmr", "label": "NMR"},
+    {"code": "bioinformatics_integration", "label": "Bioinformatics / AlphaFold"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1038/s42003-024-06558-y", "url": "https://doi.org/10.1038/s42003-024-06558-y", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Allosteric regulation of MALT1 paracaspase – NMR and AlphaFold integrative analysis", "venue": "Commun. Biol. (2024)", "doi": "10.1038/s42003-024-06558-y", "url": "https://doi.org/10.1038/s42003-024-06558-y", "relation": "primary_publication"}
+  ],
+  "keywords": ["MALT1", "NMR", "AlphaFold", "allostery"]
+}

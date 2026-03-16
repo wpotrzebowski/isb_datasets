@@ -1,0 +1,26 @@
+{
+  "id": "ISB-D-0026",
+  "portal_index": 26,
+  "title": "IAPP solution-dependent polymorphism and cross-aggregation – cryo-EM and MALDI-MSI",
+  "portal_description": "Cryo-EM provides mechanistic insights into solution-dependent polymorphism and cross-aggregation of human and rat islet amyloid polypeptide; cryo-EM with spatial MS validation.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-27.html",
+  "unit_facility": "Cryo-EM / Spatial Mass Spectrometry",
+  "system_target": "IAPP fibril polymorphism and cross-aggregation; human and rat.",
+  "organism_source": "Human / Rat IAPP",
+  "approx_data_collection_years": "~2024-2025",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (Biochemistry)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "maldi_msi", "label": "Spatial Mass Spectrometry"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1021/acs.biochem.5c00042", "url": "https://doi.org/10.1021/acs.biochem.5c00042", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Cryo-Electron Microscopy Provides Mechanistic Insights into Solution-Dependent Polymorphism and Cross-Aggregation Phenomena of the Human and Rat Islet Amyloid Polypeptides", "venue": "Biochemistry (2025)", "doi": "10.1021/acs.biochem.5c00042", "url": "https://doi.org/10.1021/acs.biochem.5c00042", "relation": "primary_publication"}
+  ],
+  "keywords": ["IAPP", "amylin", "cryo-EM", "polymorphism", "MALDI-MSI"]
+}

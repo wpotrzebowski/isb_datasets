@@ -8,10 +8,13 @@ data_collection_years: "~2019–2020"
 access_status: "Public"
 main_repository: "PRIDE (PXD019953 or equivalent); Front. Genet. supplementary"
 techniques:
-  - "Cross-linking MS (XL-MS)"
   - "MS / Proteomics"
   - "Integrative / computational modelling (non-MD)"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/ee069ba9bb7e40a986399dbe71bba3c1"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.3389/fgene.2020.612475"
@@ -23,6 +26,7 @@ publications:
     venue: "Front. Genet. (2021)"
     doi: "10.3389/fgene.2020.612475"
     url: "https://doi.org/10.3389/fgene.2020.612475"
+    pmid: "33488677"
 ---
 
 In vivo XL-MS of complement MAC on bacteria. From the publication list.

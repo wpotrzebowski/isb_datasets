@@ -12,6 +12,10 @@ techniques:
   - "Integrative / computational modelling (non-MD)"
   - "Bioinformatics / Data Integration"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/b6b00054f2834df095a407814eb3b50c"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1016/j.jmb.2025.169405"
@@ -21,6 +25,7 @@ publications:
     venue: "J. Mol. Biol. (2025)"
     doi: "10.1016/j.jmb.2025.169405"
     url: "https://doi.org/10.1016/j.jmb.2025.169405"
+    pmid: "40850490"
 ---
 
 Multimodal cryo-EM and computational analysis of IAPP fibril polymorphism to inform design of peptide-based therapeutics.

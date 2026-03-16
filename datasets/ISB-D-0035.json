@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0035",
+  "portal_index": 35,
+  "title": "Pyridine-fused 2-pyridones – amyloid fibril binding",
+  "portal_description": "Pyridine-fused 2-pyridones as amyloid fibril binding agents; cryo-EM and NMR.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-36.html",
+  "unit_facility": "Cryo-EM / Swedish NMR Centre",
+  "system_target": "Amyloid fibril binding by pyridine-fused 2-pyridones",
+  "organism_source": "Amyloid fibrils (synthetic compounds)",
+  "approx_data_collection_years": "~2018",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (J. Org. Chem.)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "nmr", "label": "NMR"},
+    {"code": "integrative_modelling", "label": "Integrative / computational modelling (non-MD)"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1021/acs.joc.8b03015", "url": "https://doi.org/10.1021/acs.joc.8b03015", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Pyridine-fused 2-pyridones – amyloid fibril binding", "venue": "J. Org. Chem. (2018)", "doi": "10.1021/acs.joc.8b03015", "url": "https://doi.org/10.1021/acs.joc.8b03015", "relation": "primary_publication"}
+  ],
+  "keywords": ["amyloid", "2-pyridones", "cryo-EM", "NMR"]
+}

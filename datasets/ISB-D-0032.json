@@ -1,0 +1,25 @@
+{
+  "id": "ISB-D-0032",
+  "portal_index": 32,
+  "title": "Ultrastructural insights into microsporidian infection apparatus",
+  "portal_description": "Ultrastructural insights into the microsporidian infection apparatus; cryo-EM and glycoproteomics.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-33.html",
+  "unit_facility": "Cryo-EM / Glycoproteomics and MS Proteomics",
+  "system_target": "Microsporidian infection apparatus; ultrastructure",
+  "organism_source": "Microsporidia",
+  "approx_data_collection_years": "~2024",
+  "access": {"status": "public", "license": null, "license_url": null},
+  "main_public_repository_storage": "Publication (PLoS Biol.)",
+  "techniques": [
+    {"code": "cryo_em", "label": "Cryo-EM"},
+    {"code": "ms_proteomics", "label": "MS / Proteomics"},
+    {"code": "ms_proteomics", "label": "Glycoproteomics"}
+  ],
+  "repository_records": [
+    {"kind": "Publication", "accession": "10.1371/journal.pbio.3002533", "url": "https://doi.org/10.1371/journal.pbio.3002533", "relation": "primary_publication"}
+  ],
+  "publications": [
+    {"type": "journal_article", "title": "Ultrastructural insights into the microsporidian infection apparatus", "venue": "PLoS Biol. (2024)", "doi": "10.1371/journal.pbio.3002533", "url": "https://doi.org/10.1371/journal.pbio.3002533", "relation": "primary_publication"}
+  ],
+  "keywords": ["microsporidia", "cryo-EM", "glycoproteomics", "infection"]
+}

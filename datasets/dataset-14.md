@@ -12,6 +12,10 @@ techniques:
   - "Integrative / computational modelling (non-MD)"
   - "Bioinformatics / Data Integration"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/c99bc8e1a31143e2bd7fd1ef3ba8ab01"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1038/s41467-025-57170-5"

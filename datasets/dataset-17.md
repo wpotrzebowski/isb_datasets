@@ -11,6 +11,10 @@ techniques:
   - "Cryo-EM"
   - "Integrative / computational modelling (non-MD)"
 repositories:
+  - type: "SciLifeLab Publication"
+    links:
+      - url: "https://publications.scilifelab.se/publication/32532dfcd911424f93ddea636563394f"
+        text: "SciLifeLab Publication"
   - type: "Publication"
     links:
       - url: "https://doi.org/10.1038/s41594-022-00755-1"
@@ -20,6 +24,7 @@ publications:
     venue: "Nat. Struct. Mol. Biol. (2022)"
     doi: "10.1038/s41594-022-00755-1"
     url: "https://doi.org/10.1038/s41594-022-00755-1"
+    pmid: "35449234"
 ---
 
 Cryo-EM of protein folding in TRiC. From the publication list.

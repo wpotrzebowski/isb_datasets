@@ -9,7 +9,6 @@ access_status: "Public"
 main_repository: "PRIDE (PXD067296, PXD061403, PXD023122); publication TBA"
 techniques:
   - "MS / Proteomics"
-  - "Cross-linking MS (XL-MS)"
   - "Biophysics (ITC/SPR/MST/DSF etc.)"
   - "Integrative / computational modelling (non-MD)"
 repositories:

@@ -9,7 +9,7 @@ access_status: "Public"
 main_repository: "SciLifeLab Data Repository (Figshare)"
 techniques:
   - "Spatial Transcriptomics (Visium)"
-  - "MALDI-MSI"
+  - "MS / Proteomics"
   - "Bioinformatics / Data Integration"
 repositories:
   - type: "SciLifeLab Data Repository"
