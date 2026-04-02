@@ -203,6 +203,28 @@ nav a:hover {
   color: var(--gray-dark);
 }
 
+/* About page */
+.about-page .about-definition {
+  padding: 1rem 1.25rem;
+  background-color: var(--gray-light);
+  border-left: 4px solid var(--lime);
+  margin: 1rem 0;
+}
+
+.about-page .about-list {
+  margin: 0.75rem 0 0 1.25rem;
+  padding-left: 0.5rem;
+}
+
+.about-page .about-list li {
+  margin-bottom: 0.65rem;
+}
+
+.about-page .about-not {
+  border-top: 1px solid var(--gray-medium);
+  padding-top: 0.5rem;
+}
+
 /* Dataset Cards (Index Page) - Compact layout */
 .dataset-grid {
   display: grid;

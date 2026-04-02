@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About – ISB Datasets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/scilifelab-logo.png" alt="SciLifeLab Logo" class="scilifelab-logo">
+            <h1>ISB Datasets</h1>
+            <p>Manually Curated Integrated Structural Biology Multi-Technique Datasets</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-content">
+            <div class="nav-left">
+                <a href="index.html">Home</a>
+                <a href="about.html" aria-current="page">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="dataset-detail about-page">
+            <h2>About this portal</h2>
+
+            <div class="info-section">
+                <p>
+                    This site lists manually curated examples of integrated structural biology work that combines multiple measurement and modelling approaches on the same biological question. The goal is to make multimodal studies easier to discover, to highlight how techniques are combined in practice, and to point to publications and public data where they exist.
+                    Each listed dataset includes at least one modality (or primary data component) collected at SciLifeLab together with complementary methods from partner labs or external repositories.
+                    Entries are not an exhaustive catalogue of all Swedish or SciLifeLab structural biology; they illustrate coherent multimodal datasets and how they are described and shared.
+                </p>
+            </div>
+
+            <div class="info-section">
+                <h3>What is a structural biology multimodal dataset?</h3>
+                <p class="about-definition">
+                    A <strong>structural biology multimodal dataset</strong> is a coherent collection of primary (raw) and derived data from <strong>two or more distinct structural-biology measurement modalities</strong> (e.g., cryo-EM, NMR, XL-MS, HDX-MS), all referring to the <strong>same biological system</strong> (and defined experimental conditions), and <strong>explicitly linked</strong> so the modalities can be jointly analysed, compared, or integrated into a unified structural or biophysical interpretation.
+                </p>
+                <p>
+                    In practice, it is not simply “a folder with different files”. A multimodal dataset has a few defining properties:
+                </p>
+                <ul class="about-list">
+                    <li><strong>Common referent:</strong> one sample or entity (or a controlled set of variants), with consistent identifiers, composition, construct sequences, buffers, states, and timepoints.</li>
+                    <li><strong>Multiple modalities:</strong> at least two techniques that measure complementary aspects (shape, distances, dynamics, heterogeneity, interactions, and similar).</li>
+                    <li><strong>Explicit linkage metadata:</strong> machine-readable relationships between modalities, plus shared coordinate frames or mappings when relevant.</li>
+                    <li><strong>FAIR-by-design packaging:</strong> standardised metadata and sharing conditions so the dataset is findable and reusable across platforms and repositories.</li>
+                </ul>
+            </div>
+
+            <div class="info-section about-not">
+                <h3>What is not a multimodal dataset</h3>
+                <ul class="about-list">
+                    <li><strong>Single-modality variation only:</strong> the same technique under different conditions, replicates, or timepoints.</li>
+                    <li><strong>Unlinked multi-technique data:</strong> two modalities measured “somewhere in the project” but without explicit sample or condition mapping—that is multi-technique work, not a multimodal dataset in this sense.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>ISB Dataset Portal | SciLifeLab</p>
+        </div>
+    </footer>
+</body>
+</html>
