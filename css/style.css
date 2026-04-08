@@ -390,6 +390,12 @@ nav a:hover {
   margin-right: 0.5rem;
 }
 
+h4.repo-subsection {
+  font-size: 1.1rem;
+  color: var(--teal);
+  margin: 1rem 0 0.5rem;
+}
+
 /* Publications */
 .publication-list {
   list-style: none;

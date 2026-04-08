@@ -13,7 +13,7 @@
     "license": null,
     "license_url": null
   },
-  "main_public_repository_storage": "PDB + EMDB + EMPIAR + PDB-IHM + PRIDE + SciLifeLab Data Repository",
+  "main_public_repository_storage": "PDB + EMDB + EMPIAR + publication supplementary data + Figshare / preprint assets + SciLifeLab Data Repository",
   "techniques": [
     {
       "code": "cryo_em",
@@ -34,72 +34,207 @@
   ],
   "repository_records": [
     {
+      "group": "core_same_study",
       "kind": "PDB",
-      "accession": "9RAI",
-      "url": "https://www.rcsb.org/structure/9RAI",
-      "relation": "primary_structure"
+      "accession": "9GI1",
+      "url": "https://www.rcsb.org/structure/9GI1",
+      "relation": "primary_structure",
+      "note": "ClpC/ClpP body; paired map EMD-51367"
     },
     {
+      "group": "core_same_study",
+      "kind": "PDB",
+      "accession": "9GOQ",
+      "url": "https://www.rcsb.org/structure/9GOQ",
+      "relation": "primary_structure",
+      "note": "MecA crown; paired map EMD-51498"
+    },
+    {
+      "group": "core_same_study",
       "kind": "PDB",
       "accession": "9R2S",
       "url": "https://www.rcsb.org/structure/9R2S",
-      "relation": "related_structure",
-      "derived_from": "PDB:9RAI"
+      "relation": "primary_structure",
+      "note": "ClpP body; paired map EMD-53538"
     },
     {
-      "kind": "EMDB",
-      "accession": "EMD-51498",
-      "url": "https://www.ebi.ac.uk/emdb/EMD-51498",
-      "relation": "primary_map"
+      "group": "core_same_study",
+      "kind": "PDB",
+      "accession": "9RAI",
+      "url": "https://www.rcsb.org/structure/9RAI",
+      "relation": "primary_structure",
+      "note": "Composite whole complex; paired map EMD-53879"
     },
     {
+      "group": "core_same_study",
       "kind": "EMDB",
       "accession": "EMD-51367",
       "url": "https://www.ebi.ac.uk/emdb/EMD-51367",
-      "relation": "primary_map"
+      "relation": "primary_map",
+      "note": "ClpC/ClpP body; paired model 9GI1"
     },
     {
+      "group": "core_same_study",
+      "kind": "EMDB",
+      "accession": "EMD-51498",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-51498",
+      "relation": "primary_map",
+      "note": "MecA crown; paired model 9GOQ"
+    },
+    {
+      "group": "core_same_study",
+      "kind": "EMDB",
+      "accession": "EMD-53538",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-53538",
+      "relation": "primary_map",
+      "note": "ClpP body; paired model 9R2S"
+    },
+    {
+      "group": "core_same_study",
       "kind": "EMDB",
       "accession": "EMD-53879",
       "url": "https://www.ebi.ac.uk/emdb/EMD-53879",
       "relation": "primary_map",
-      "derived_from": "PDB:9RAI"
+      "note": "Composite whole complex; paired model 9RAI"
     },
     {
+      "group": "core_same_study",
       "kind": "EMPIAR",
       "accession": "EMPIAR-12887",
       "url": "https://www.ebi.ac.uk/empiar/EMPIAR-12887",
-      "relation": "raw_data"
+      "relation": "raw_data",
+      "note": "aligned micrographs and raw movie frames"
     },
     {
+      "group": "same_study_supplementary",
+      "kind": "journal_supplementary_file",
+      "accession": "Supplementary Data 1",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-025-08908-w/MediaObjects/42003_2025_8908_MOESM4_ESM.xlsx",
+      "relation": "supplementary_dataset",
+      "note": "Source data for figures (XLSX); Communications Biology article."
+    },
+    {
+      "group": "same_study_supplementary",
+      "kind": "journal_supplementary_file",
+      "accession": "Supplementary Video 1",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-025-08908-w/MediaObjects/42003_2025_8908_MOESM5_ESM.mp4",
+      "relation": "supplementary_media",
+      "note": "3D variability movie (MecA crown, ClpC/ClpP and ClpP bodies)."
+    },
+    {
+      "group": "same_study_supplementary",
+      "kind": "journal_supplementary_file",
+      "accession": null,
+      "url": "https://www.nature.com/articles/s42003-025-08908-w#MOESM2",
+      "relation": "supplementary_information",
+      "note": "Supplementary Information PDF (figures, tables, extended methods)."
+    },
+    {
+      "group": "derived_computational",
+      "kind": "preprint",
+      "doi": "10.1101/2025.06.06.658286",
+      "url": "https://doi.org/10.1101/2025.06.06.658286",
+      "relation": "derived_dataset",
+      "note": "AlphaFold predictions and ChimeraX session (MecA–ClpC AF models) linked from the primary publication."
+    },
+    {
+      "group": "derived_computational",
+      "kind": "SciLifeLab Data Repository",
+      "accession": "29261882",
+      "url": "https://figshare.scilifelab.se/articles/dataset/Structure_of_the_central_Staphylococcus_aureus_AAA_protease_MecA_ClpC_ClpP/29261882",
+      "relation": "supplementary_dataset",
+      "note": "SciLifeLab Figshare dataset (ChimeraX session and related assets for this publication)."
+    },
+    {
+      "group": "derived_computational",
+      "kind": "SciLifeLab Publication",
+      "accession": null,
+      "url": "https://publications.scilifelab.se/publication/73fee7c76bfd49a6944ca090feb04ef1",
+      "relation": "institutional_record",
+      "note": "SciLifeLab publications catalogue entry."
+    },
+    {
+      "group": "related_reference_method",
       "kind": "PDB-IHM",
       "accession": "9A66",
       "url": "https://pdb-ihm.org/entry.html?9A66",
       "relation": "related_structure",
-      "note": "Integrative ClpC-ClpP model (XL-MS + deep learning); crosslinking data in PRIDE"
+      "note": "Bacillus subtilis integrative ClpC–ClpP model (XL-MS + deep learning); not the S. aureus MecA/ClpC/ClpP cryo-EM study."
     },
     {
+      "group": "related_reference_method",
       "kind": "PRIDE",
       "accession": "PXD035508",
       "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD035508",
       "relation": "related_dataset",
-      "note": "Crosslinking-MS data for PDB-IHM 9A66"
+      "note": "Crosslinking-MS data for PDB-IHM 9A66; adjacent reference, not the same experimental dataset as this portal record."
     },
     {
-      "kind": "SciLifeLab Data Repository",
-      "doi": null,
-      "url": null,
-      "relation": "supplementary_dataset",
-      "note": "Portal references a SciLifeLab Data Repository dataset titled 'Structure of the central Staphylococcus aureus AAA+ protease MecA/ClpC/ClpP' (DOI not listed on portal)."
+      "group": "related_companion_structures",
+      "kind": "PDB",
+      "accession": "9QCL",
+      "url": "https://www.rcsb.org/structure/9QCL",
+      "relation": "related_structure",
+      "note": "S. aureus ClpC/ClpP (EMBO J. 2025); paired map EMD-53014"
+    },
+    {
+      "group": "related_companion_structures",
+      "kind": "PDB",
+      "accession": "9QRW",
+      "url": "https://www.rcsb.org/structure/9QRW",
+      "relation": "related_structure",
+      "note": "S. aureus ClpC/ClpP (EMBO J. 2025); paired map EMD-53324"
+    },
+    {
+      "group": "related_companion_structures",
+      "kind": "PDB",
+      "accession": "9QQR",
+      "url": "https://www.rcsb.org/structure/9QQR",
+      "relation": "related_structure",
+      "note": "S. aureus ClpC/ClpP (EMBO J. 2025); paired map EMD-53312"
+    },
+    {
+      "group": "related_companion_structures",
+      "kind": "EMDB",
+      "accession": "EMD-53014",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-53014",
+      "relation": "related_map",
+      "note": "The EMBO Journal (2025) ClpC/ClpP study; paired model 9QCL"
+    },
+    {
+      "group": "related_companion_structures",
+      "kind": "EMDB",
+      "accession": "EMD-53324",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-53324",
+      "relation": "related_map",
+      "note": "The EMBO Journal (2025) ClpC/ClpP study; paired model 9QRW"
+    },
+    {
+      "group": "related_companion_structures",
+      "kind": "EMDB",
+      "accession": "EMD-53312",
+      "url": "https://www.ebi.ac.uk/emdb/EMD-53312",
+      "relation": "related_map",
+      "note": "The EMBO Journal (2025) ClpC/ClpP study; paired model 9QQR"
     }
   ],
   "publications": [
     {
       "type": "journal_article",
+      "title": "Structure of the central Staphylococcus aureus AAA+ protease MecA/ClpC/ClpP",
       "venue": "Communications Biology (2025)",
       "doi": "10.1038/s42003-025-08908-w",
       "url": "https://doi.org/10.1038/s42003-025-08908-w",
       "relation": "primary_publication"
+    },
+    {
+      "type": "journal_article",
+      "title": "Allosteric control of the bacterial ClpC/ClpP protease and its hijacking by antibacterial peptides",
+      "venue": "The EMBO Journal (2025)",
+      "doi": "10.1038/s44318-025-00575-1",
+      "url": "https://doi.org/10.1038/s44318-025-00575-1",
+      "relation": "related_publication",
+      "note": "Resting-state and related S. aureus ClpC/ClpP cryo-EM; distinct from the MecA/ClpC/ClpP complex featured in the primary publication."
     }
   ],
   "keywords": [
@@ -111,4 +246,3 @@
     "cryo-EM"
   ]
 }
-

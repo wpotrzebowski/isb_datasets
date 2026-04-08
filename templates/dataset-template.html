@@ -69,8 +69,18 @@
 
             <div class="info-section">
                 <h3>Repository Links</h3>
-                <ul class="repo-link-list">
-                    {% for repo in repositories %}
+                {% set ns = namespace(ul_open=false) %}
+                {% for repo in repositories %}
+                    {% if repo.section_heading %}
+                        {% if ns.ul_open %}</ul>{% endif %}
+                        <h4 class="repo-subsection">{{repo.section_heading}}</h4>
+                        <ul class="repo-link-list">
+                        {% set ns.ul_open = true %}
+                    {% else %}
+                        {% if not ns.ul_open %}
+                        <ul class="repo-link-list">
+                        {% set ns.ul_open = true %}
+                        {% endif %}
                     <li>
                         <span class="repo-type">{{repo.type}}:</span>
                         {% if repo.links %}
@@ -81,8 +91,9 @@
                         <span style="color: var(--gray-dark);">{{repo.note}}</span>
                         {% endif %}
                     </li>
-                    {% endfor %}
-                </ul>
+                    {% endif %}
+                {% endfor %}
+                {% if ns.ul_open %}</ul>{% endif %}
             </div>
 
             {% if publications %}
