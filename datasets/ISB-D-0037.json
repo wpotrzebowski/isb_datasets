@@ -1,0 +1,55 @@
+{
+  "id": "ISB-D-0037",
+  "portal_index": 37,
+  "title": "Structural insights into Pseudomonas aeruginosa lysine-specific uptake mechanism for extremely low pH regulation",
+  "portal_description": "The dataset denotes the cryo-EM maps and model files for the cryo-EM structure of lysine-specific permease bound to L-lysine and in complex with a nanobody. Electron microscopy sample preparation and data acquisition: The cryo-EM grids were prepared by applying 3 μL of the LysP-Nb5755 complex protein at 2 mg/mL in buffer containing 100 mM NaCl, 20 mM Tris-HCl pH 7.5, 0.03 %(w/v) DDM and 10 mM L-lysine, to a glow-discharged Quantifoil R1.2/1.3 200/300-mesh copper/gold holey carbon grid (QUANTIFOI",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-38.html",
+  "unit_facility": "Stockholm University",
+  "system_target": "The dataset denotes the cryo-EM maps and model files for the cryo-EM structure of lysine-specific permease bound to L-lysine and in complex with a nanobody. Electron microscopy sample preparation and data acquisition: The cryo-EM grids were prepared by applying 3 μL of the LysP-Nb5755 complex protein at 2 mg/mL in buffer containing 100 mM NaCl, 20 mM Tris-HCl pH 7.5, 0.03 %(w/v) DDM and 10 mM L-ly",
+  "organism_source": "TBD",
+  "approx_data_collection_years": "TBD",
+  "access": {
+    "status": "public",
+    "license": "CC BY",
+    "license_url": null
+  },
+  "main_public_repository_storage": "figshare, figshare",
+  "techniques": [
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    },
+    {
+      "code": "integrative_modelling",
+      "label": "Integrative / computational modelling (non-MD)"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "Dataset",
+      "doi": "10.6084/m9.figshare.26511043.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.26511043.v1",
+      "relation": "primary_dataset"
+    },
+    {
+      "kind": "Figshare",
+      "url": "https://dx.doi.org/10.6084/m9.figshare.26511043.v1",
+      "relation": "landing_page"
+    },
+    {
+      "kind": "Figshare",
+      "url": "https://dx.doi.org/10.6084/m9.figshare.26511043",
+      "relation": "landing_page"
+    }
+  ],
+  "publications": [],
+  "keywords": [
+    "Cryo-EM",
+    "Integrative / computational modelling (non-MD)"
+  ],
+  "provenance": {
+    "openaire_graph_id": "doi_dedup___::01fd6e6f7c1d361b4deac69e59bb32e9",
+    "synced_at": "2026-04-29T11:56:32.132586+00:00",
+    "publisher": "figshare"
+  }
+}

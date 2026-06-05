@@ -1,0 +1,55 @@
+{
+  "id": "ISB-D-0038",
+  "portal_index": 38,
+  "title": "Structural mechanism of FusB-mediated rescue from fusidic acid inhibition of protein synthesis",
+  "portal_description": "Cryo-EM maps and coordinate files.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-39.html",
+  "unit_facility": "TBD (curate from OpenAIRE record)",
+  "system_target": "Cryo-EM maps and coordinate files.",
+  "organism_source": "TBD",
+  "approx_data_collection_years": "TBD",
+  "access": {
+    "status": "public",
+    "license": "CC 0",
+    "license_url": null
+  },
+  "main_public_repository_storage": "EMBL-EBI, Unknown Repository",
+  "techniques": [
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "Dataset",
+      "doi": "10.6019/empiar-12731",
+      "url": "https://doi.org/10.6019/empiar-12731",
+      "relation": "primary_dataset"
+    },
+    {
+      "kind": "Unknown Repository",
+      "url": "https://doi.org/10.6019/empiar-12731",
+      "relation": "landing_page"
+    },
+    {
+      "kind": "Figshare",
+      "url": "https://dx.doi.org/10.6084/m9.figshare.27097819",
+      "relation": "landing_page"
+    },
+    {
+      "kind": "Figshare",
+      "url": "https://dx.doi.org/10.6084/m9.figshare.27097819.v1",
+      "relation": "landing_page"
+    }
+  ],
+  "publications": [],
+  "keywords": [
+    "Cryo-EM"
+  ],
+  "provenance": {
+    "openaire_graph_id": "doi_dedup___::03e319607082755f4d815fca091d41be",
+    "synced_at": "2026-04-29T11:56:32.132586+00:00",
+    "publisher": "EMBL-EBI"
+  }
+}

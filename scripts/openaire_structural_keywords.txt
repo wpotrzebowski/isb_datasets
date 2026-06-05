@@ -1,0 +1,54 @@
+# Structural biology / ISB-relevant terms (case-insensitive substring match).
+# Lines starting with # are ignored.
+
+structural biology
+integrative structural biology
+cryo-EM
+cryo EM
+cryoEM
+electron cryo-microscopy
+electron microscopy
+single particle
+tomography
+subtomogram
+EMDB
+electron density
+PDB
+RCSB
+wwPDB
+AlphaFold
+AFDB
+SAXS
+SANS
+small angle scattering
+SASBDB
+NMR
+BMRB
+solid-state NMR
+solution NMR
+HDX
+HDX-MS
+hydrogen deuterium exchange
+XL-MS
+cross-linking mass spectrometry
+crosslinking MS
+integrative modeling
+integrative modelling
+HADDOCK
+Rosetta
+molecular dynamics
+all-atom simulation
+conformational ensemble
+multimodal
+X-ray crystallography
+diffraction
+XFEL
+microcrystal
+MS proteomics
+structural proteomics
+virion
+capsid
+ribosome
+membrane protein
+nanodisc
+liposome

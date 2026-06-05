@@ -1,0 +1,70 @@
+{
+  "id": "ISB-D-0045",
+  "portal_index": 45,
+  "title": "Modeling cryo-EM structures in alternative states with generative AI and density-guided simulations",
+  "portal_description": "AlphaFold2 models, density guided molecular dynamics simulations and scripts demonstrating cryo-EM model refinement pipeline for three systems: CLR, LAT1, ASCT2.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-46.html",
+  "unit_facility": "Stockholm University",
+  "system_target": "AlphaFold2 models, density guided molecular dynamics simulations and scripts demonstrating cryo-EM model refinement pipeline for three systems: CLR, LAT1, ASCT2.",
+  "organism_source": "TBD",
+  "approx_data_collection_years": "TBD",
+  "access": {
+    "status": "public",
+    "license": "CC BY",
+    "license_url": null
+  },
+  "main_public_repository_storage": "Zenodo, ZENODO",
+  "techniques": [
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    },
+    {
+      "code": "md_simulation",
+      "label": "MD / other simulations"
+    },
+    {
+      "code": "integrative_modelling",
+      "label": "Integrative / computational modelling (non-MD)"
+    },
+    {
+      "code": "bioinformatics_integration",
+      "label": "Bioinformatics / Data Integration"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "Dataset",
+      "doi": "10.5281/zenodo.14749350",
+      "url": "https://doi.org/10.5281/zenodo.14749350",
+      "relation": "primary_dataset"
+    },
+    {
+      "kind": "Zenodo",
+      "url": "https://dx.doi.org/10.5281/zenodo.14749350",
+      "relation": "landing_page"
+    },
+    {
+      "kind": "Zenodo",
+      "url": "http://dx.doi.org/10.5281/zenodo.14749350",
+      "relation": "landing_page"
+    },
+    {
+      "kind": "Zenodo",
+      "url": "https://zenodo.org/records/14749350",
+      "relation": "landing_page"
+    }
+  ],
+  "publications": [],
+  "keywords": [
+    "Bioinformatics / Data Integration",
+    "Cryo-EM",
+    "Integrative / computational modelling (non-MD)",
+    "MD / other simulations"
+  ],
+  "provenance": {
+    "openaire_graph_id": "doi_dedup___::0e6e5b7ad4eac83d53eaec378dcfe2f6",
+    "synced_at": "2026-04-29T11:56:32.132586+00:00",
+    "publisher": "Zenodo"
+  }
+}

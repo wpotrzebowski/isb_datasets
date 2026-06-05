@@ -12,6 +12,34 @@ python scripts/monitor_datasets.py
 
 The script checks multiple repositories and saves results to `scripts/new_datasets.json`.
 
+## OpenAIRE sync (SciLifeLab community datasets)
+
+The OpenAIRE Graph API exposes SciLifeLab research products when using `relCommunityId=scilifelab` ([Data & API](https://scilifelab.openaire.eu/data-and-api)). The helper script filters records toward structural biology using keyword lists and skips DOIs already present in `datasets/ISB-D-*.json`.
+
+**Dry run (default)** — fetches, filters, and prints what would be added; updates `scripts/openaire_sync_state.json` with the run summary.
+
+```bash
+python scripts/fetch_openaire_scilifelab.py
+```
+
+**Apply** — creates new `datasets/ISB-D-*.json` and `datasets/dataset-*.md`, and appends entries to `datasets/index.json`.
+
+```bash
+python scripts/fetch_openaire_scilifelab.py --apply --max-new 10
+```
+
+Useful flags:
+
+- `--max-new N` — cap how many datasets are written this run.
+- `--keywords-file PATH` — override structural-biology terms (default: `scripts/openaire_structural_keywords.txt`).
+- `--from-publication-date YYYY-MM-DD` — only consider datasets published on or after this date.
+- `--max-pages-per-query N` — safety limit on API pagination per built-in search string (OpenAIRE limits each `search` string to at most four `OR` operators).
+- `--include-duplicate-report` — list OpenAIRE titles whose DOI already exists in the portal.
+
+After `--apply`, add an entry card to `index.html` by hand, curate the Markdown, then run `python scripts/build.py` to regenerate HTML.
+
+Logs: `scripts/openaire_sync.log` (see `.gitignore`).
+
 ## Manual Monitoring Checklist
 
 Since many repositories don't have public APIs or require authentication, regular manual checks are recommended:

@@ -1,0 +1,57 @@
+{
+  "id": "ISB-D-0036",
+  "portal_index": 36,
+  "title": "CCDC 1986085: Experimental Crystal Structure Determination",
+  "portal_description": "An entry from the Cambridge Structural Database, the world’s repository for small molecule crystal structures. The entry contains experimental data from a crystal diffraction study. The deposited dataset for this entry is freely available from the CCDC and typically includes 3D coordinates, cell parameters, space group, experimental conditions and quality measures.",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-37.html",
+  "unit_facility": "TBD (curate from OpenAIRE record)",
+  "system_target": "An entry from the Cambridge Structural Database, the world’s repository for small molecule crystal structures. The entry contains experimental data from a crystal diffraction study. The deposited dataset for this entry is freely available from the CCDC and typically includes 3D coordinates, cell parameters, space group, experimental conditions and quality measures.",
+  "organism_source": "TBD",
+  "approx_data_collection_years": "TBD",
+  "access": {
+    "status": "public",
+    "license": null,
+    "license_url": null
+  },
+  "main_public_repository_storage": "The Cambridge Structural Database",
+  "techniques": [
+    {
+      "code": "xray_crystallography",
+      "label": "X-ray crystallography"
+    },
+    {
+      "code": "biophysics",
+      "label": "Biophysics (ITC/SPR/MST/DSF etc.)"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "Dataset",
+      "doi": "10.5517/ccdc.csd.cc24np8s",
+      "url": "https://doi.org/10.5517/ccdc.csd.cc24np8s",
+      "relation": "primary_dataset"
+    },
+    {
+      "kind": "The Cambridge Structural Database",
+      "url": "https://dx.doi.org/10.5517/ccdc.csd.cc24np8s",
+      "relation": "landing_page"
+    }
+  ],
+  "publications": [],
+  "keywords": [
+    "7-(acetyloxy)-6-hydroxy-11,14-dioxoabieta-8,12-dien-12-yl benzoate",
+    "Biophysics (ITC/SPR/MST/DSF etc.)",
+    "Cell Parameters",
+    "Crystal Structure",
+    "Crystal System",
+    "Crystallography",
+    "Experimental 3D Coordinates",
+    "Space Group",
+    "X-ray crystallography"
+  ],
+  "provenance": {
+    "openaire_graph_id": "doi_________::25c99911964f5ad9bec07880e0303e5c",
+    "synced_at": "2026-04-29T11:56:32.132586+00:00",
+    "publisher": null
+  }
+}

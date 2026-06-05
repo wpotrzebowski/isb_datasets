@@ -13,7 +13,7 @@
     "license": null,
     "license_url": null
   },
-  "main_public_repository_storage": "PDB + EMDB + EMPIAR + proteomics repository",
+  "main_public_repository_storage": "PDB + EMDB + EMPIAR + PRIDE (PXD062129)",
   "techniques": [
     {
       "code": "cryo_em",
@@ -67,11 +67,10 @@
       "note": "Portal describes this as the raw cryo-EM movie."
     },
     {
-      "kind": "MS repository",
-      "accession": null,
-      "url": null,
-      "relation": "proteomics_dataset",
-      "note": "Portal indicates an MS dataset exists but ID was not yet added (PRIDE/ProteomeXchange or similar)."
+      "kind": "PRIDE",
+      "accession": "PXD062129",
+      "url": "https://www.ebi.ac.uk/pride/archive/projects/PXD062129",
+      "relation": "proteomics_dataset"
     }
   ],
   "publications": [

@@ -1,0 +1,50 @@
+{
+  "id": "ISB-D-0041",
+  "portal_index": 41,
+  "title": "Cryo-EM structure of P5A-ATPase CtSpf1 (E1-ATP state)",
+  "portal_description": "Cryo-EM structure of P5A-ATPase CtSpf1 (E1-ATP state)",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-42.html",
+  "unit_facility": "TBD (curate from OpenAIRE record)",
+  "system_target": "Cryo-EM structure of P5A-ATPase CtSpf1 (E1-ATP state)",
+  "organism_source": "TBD",
+  "approx_data_collection_years": "TBD",
+  "access": {
+    "status": "public",
+    "license": null,
+    "license_url": null
+  },
+  "main_public_repository_storage": "Worldwide Protein Data Bank, Unknown Repository",
+  "techniques": [
+    {
+      "code": "cryo_em",
+      "label": "Cryo-EM"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "Dataset",
+      "doi": "10.2210/pdb8op4/pdb",
+      "url": "https://doi.org/10.2210/pdb8op4/pdb",
+      "relation": "primary_dataset"
+    },
+    {
+      "kind": "Unknown Repository",
+      "url": "https://doi.org/10.2210/pdb8op4/pdb",
+      "relation": "landing_page"
+    },
+    {
+      "kind": "Unknown Repository",
+      "url": "https://www.rcsb.org/structure/8op4",
+      "relation": "landing_page"
+    }
+  ],
+  "publications": [],
+  "keywords": [
+    "Cryo-EM"
+  ],
+  "provenance": {
+    "openaire_graph_id": "doi_dedup___::08407fcb18c424f1e9eec9ae56ca8437",
+    "synced_at": "2026-04-29T11:56:32.132586+00:00",
+    "publisher": "Worldwide Protein Data Bank"
+  }
+}

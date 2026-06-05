@@ -6,7 +6,7 @@ system_target: "Ribosome-bound EF-G stalled by fusidic acid and rescued by FusB;
 organism_source: "Bacterial 70S ribosome, EF-G, FusB"
 data_collection_years: "~2022–2024"
 access_status: "Public"
-main_repository: "PDB + EMDB + EMPIAR + proteomics repository"
+main_repository: "PDB + EMDB + EMPIAR + PRIDE (PXD062129)"
 techniques:
   - "Cryo-EM"
   - "MS / Proteomics"
@@ -30,8 +30,10 @@ repositories:
       - url: "https://www.ebi.ac.uk/empiar/EMPIAR-12731"
         text: "EMPIAR-12731"
         note: "(raw cryo-EM movie)"
-  - type: "MS dataset"
-    note: "ID to be added (PRIDE or similar)"
+  - type: "PRIDE"
+    links:
+      - url: "https://www.ebi.ac.uk/pride/archive/projects/PXD062129"
+        text: "PXD062129"
   - type: "SciLifeLab Publication"
     links:
       - url: "https://publications.scilifelab.se/publication/d8643fc1bb1a43d3b9fd1f76d1c85fec"

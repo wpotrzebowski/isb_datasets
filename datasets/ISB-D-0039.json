@@ -1,0 +1,55 @@
+{
+  "id": "ISB-D-0039",
+  "portal_index": 39,
+  "title": "Ptychographic wavefront characterisation forsingle-particle imaging at X-ray lasers",
+  "portal_description": "A well-characterised wavefront is important for many X-ray free-electron laser (XFEL) experiments, especially for single-particle imaging (SPI), where individual bio-molecules randomly sample a nanometer-region of highly-focused femtosecond pulses. We demonstrate high-resolution multiple-plane wavefront imaging of an ensemble of XFEL pulses, focused by Kirkpatrick-Baez (KB) mirrors, based on mixed-state ptychography, an approach letting us infer and reduce experimental sources of instability. Fr",
+  "portal_landing_page_url": "https://wpotrzebowski.github.io/isb_datasets/datasets/dataset-40.html",
+  "unit_facility": "TBD (curate from OpenAIRE record)",
+  "system_target": "A well-characterised wavefront is important for many X-ray free-electron laser (XFEL) experiments, especially for single-particle imaging (SPI), where individual bio-molecules randomly sample a nanometer-region of highly-focused femtosecond pulses. We demonstrate high-resolution multiple-plane wavefront imaging of an ensemble of XFEL pulses, focused by Kirkpatrick-Baez (KB) mirrors, based on mixed",
+  "organism_source": "TBD",
+  "approx_data_collection_years": "TBD",
+  "access": {
+    "status": "public",
+    "license": "CC BY",
+    "license_url": null
+  },
+  "main_public_repository_storage": "figshare",
+  "techniques": [
+    {
+      "code": "xray_crystallography",
+      "label": "X-ray crystallography"
+    }
+  ],
+  "repository_records": [
+    {
+      "kind": "Dataset",
+      "doi": "10.6084/m9.figshare.c.5333927.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.c.5333927.v1",
+      "relation": "primary_dataset"
+    },
+    {
+      "kind": "Figshare",
+      "url": "https://dx.doi.org/10.6084/m9.figshare.c.5333927.v1",
+      "relation": "landing_page"
+    },
+    {
+      "kind": "Figshare",
+      "url": "https://dx.doi.org/10.6084/m9.figshare.c.5333927",
+      "relation": "landing_page"
+    },
+    {
+      "kind": "Figshare",
+      "url": "https://dx.doi.org/10.6084/m9.figshare.c.5333927.v2",
+      "relation": "landing_page"
+    }
+  ],
+  "publications": [],
+  "keywords": [
+    "X-ray crystallography"
+  ],
+  "provenance": {
+    "openaire_graph_id": "doi_dedup___::0581f32e1ebf9976b26f7aa737e08181",
+    "synced_at": "2026-04-29T11:56:32.132586+00:00",
+    "publisher": null
+  }
+}

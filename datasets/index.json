@@ -3,7 +3,7 @@
     "name": "ISB-AP",
     "version": "1.0",
     "type": "dataset_metadata_collection",
-    "generated_at": "2026-01-13T11:23:31.167955+00:00"
+    "generated_at": "2026-04-29T11:56:32.132586+00:00"
   },
   "source": {
     "portal_name": "ISB Dataset Portal (GitHub Pages)",
@@ -187,6 +187,56 @@
       "id": "ISB-D-0024",
       "portal_index": 24,
       "file": "ISB-D-0024.json"
+    },
+    {
+      "id": "ISB-D-0036",
+      "portal_index": 36,
+      "file": "ISB-D-0036.json"
+    },
+    {
+      "id": "ISB-D-0037",
+      "portal_index": 37,
+      "file": "ISB-D-0037.json"
+    },
+    {
+      "id": "ISB-D-0038",
+      "portal_index": 38,
+      "file": "ISB-D-0038.json"
+    },
+    {
+      "id": "ISB-D-0039",
+      "portal_index": 39,
+      "file": "ISB-D-0039.json"
+    },
+    {
+      "id": "ISB-D-0040",
+      "portal_index": 40,
+      "file": "ISB-D-0040.json"
+    },
+    {
+      "id": "ISB-D-0041",
+      "portal_index": 41,
+      "file": "ISB-D-0041.json"
+    },
+    {
+      "id": "ISB-D-0042",
+      "portal_index": 42,
+      "file": "ISB-D-0042.json"
+    },
+    {
+      "id": "ISB-D-0043",
+      "portal_index": 43,
+      "file": "ISB-D-0043.json"
+    },
+    {
+      "id": "ISB-D-0044",
+      "portal_index": 44,
+      "file": "ISB-D-0044.json"
+    },
+    {
+      "id": "ISB-D-0045",
+      "portal_index": 45,
+      "file": "ISB-D-0045.json"
     }
   ],
   "mapping": {
@@ -250,4 +300,3 @@
     ]
   }
 }
-
